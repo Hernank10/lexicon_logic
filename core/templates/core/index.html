@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexicon Logic | Diccionario Colaborativo</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0d6efd 0%, #003d99 100%); color: white; padding: 60px 0; border-radius: 0 0 50px 50px; }
+        .card-custom { border: none; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); transition: 0.3s; }
+        .card-custom:hover { transform: translateY(-5px); }
+        .btn-round { border-radius: 30px; padding: 10px 25px; }
+    </style>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/"><i class="fas fa-brain me-2"></i>LEXICON LOGIC</a>
+            <div class="d-flex">
+                <a href="/admin" class="btn btn-outline-light btn-sm btn-round">Admin Panel</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera -->
+    <header class="hero-bg text-center mb-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Explora Variantes del Español</h1>
+            <p class="lead">Un diccionario colaborativo para entender nuestras diferencias léxicas.</p>
+            
+            <!-- Barra de Búsqueda -->
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6">
+                    <form action="" method="GET" class="input-group input-group-lg shadow-lg rounded-pill overflow-hidden">
+                        <input type="text" name="q" class="form-control border-0 px-4" placeholder="Buscar palabra..." value="{{ query }}">
+                        <button class="btn btn-white bg-white text-primary border-0 px-4" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mb-5">
+        <div class="row">
+            <!-- Columna de Resultados -->
+            <div class="col-lg-8">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="fw-bold">{% if query %}Resultados para "{{ query }}"{% else %}Términos Recientes{% endif %}</h3>
+                    <button class="btn btn-primary btn-round shadow" data-bs-toggle="modal" data-bs-target="#modalCrear">
+                        <i class="fas fa-plus me-2"></i>Sugerir Palabra
+                    </button>
+                </div>
+
+                {% for termino in terminos %}
+                <div class="card card-custom mb-4 p-3">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h2 class="h4 fw-bold text-primary">{{ termino.palabra }}</h2>
+                            <span class="badge bg-info text-dark rounded-pill">{{ termino.get_categoria_gramatical_display }}</span>
+                        </div>
+                        <p class="text-muted mt-2">{{ termino.definicion }}</p>
+                        
+                        <!-- Lista de Variantes -->
+                        <div class="mt-3">
+                            <h6 class="text-uppercase small fw-bold text-secondary">Variantes:</h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                {% for variante in termino.variantes.all %}
+                                <span class="badge bg-light text-dark border p-2">
+                                    <strong>{{ variante.palabra_variante }}</strong> ({{ variante.pais }})
+                                </span>
+                                {% empty %}
+                                <small class="text-muted italic">Aún no hay variantes. ¡Sé el primero en añadir una!</small>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% empty %}
+                <div class="text-center py-5">
+                    <i class="fas fa-ghost fa-3x text-light mb-3"></i>
+                    <p class="text-muted">No encontramos nada. ¡Prueba agregando tú la palabra!</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Columna Lateral (Info) -->
+            <div class="col-lg-4">
+                <div class="card card-custom p-4 bg-white">
+                    <h5 class="fw-bold mb-3"><i class="fas fa-info-circle me-2 text-primary"></i>¿Sabías qué?</h5>
+                    <p class="small text-secondary">El español tiene más de 500 millones de hablantes. Una misma palabra puede significar cosas totalmente distintas según el país.</p>
+                    <hr>
+                    <p class="small mb-0"><strong>Lexicon Logic</strong> utiliza Django para procesar estos datos en tiempo real.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Crear Palabra -->
+    <div class="modal fade" id="modalCrear" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">Nueva Palabra</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Palabra</label>
+                            {{ form.palabra }}
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Categoría</label>
+                            {{ form.categoria_gramatical }}
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Definición</label>
+                            {{ form.definicion }}
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn btn-light btn-round" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary btn-round">Guardar Palabra</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

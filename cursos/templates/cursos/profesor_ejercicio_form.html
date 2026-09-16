@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>{{ titulo }} | Panel Profesor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_leccion_detail' leccion.id %}" class="btn btn-outline-light btn-sm">Volver a la leccion</a>
+</div>
+</nav>
+
+<div class="container mt-4" style="max-width: 800px;">
+<h1>{{ titulo }}</h1>
+<p class="text-muted">Leccion: {{ leccion.titulo }}</p>
+
+<form method="post" class="card shadow-sm p-4">
+{% csrf_token %}
+
+<div class="row">
+<div class="col-md-2 mb-3">
+<label class="form-label">Orden</label>
+{{ form.orden }}
+</div>
+<div class="col-md-8 mb-3">
+<label class="form-label">Pregunta *</label>
+{{ form.pregunta }}
+</div>
+<div class="col-md-2 mb-3">
+<label class="form-label">XP</label>
+{{ form.xp_reward }}
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6 mb-3">
+<label class="form-label">Opcion A</label>
+{{ form.opcion_a }}
+</div>
+<div class="col-md-6 mb-3">
+<label class="form-label">Opcion B</label>
+{{ form.opcion_b }}
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6 mb-3">
+<label class="form-label">Opcion C</label>
+{{ form.opcion_c }}
+</div>
+<div class="col-md-6 mb-3">
+<label class="form-label">Opcion D</label>
+{{ form.opcion_d }}
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 mb-3">
+<label class="form-label">Respuesta correcta</label>
+{{ form.respuesta_correcta }}
+</div>
+<div class="col-md-9 mb-3">
+<label class="form-label">Explicacion</label>
+{{ form.explicacion }}
+</div>
+</div>
+
+<button type="submit" class="btn btn-primary">{{ accion }}</button>
+<a href="{% url 'cursos:profesor_leccion_detail' leccion.id %}" class="btn btn-secondary">Cancelar</a>
+</form>
+
+</div>
+</body>
+</html>

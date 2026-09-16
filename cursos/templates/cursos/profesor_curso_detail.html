@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>{{ curso.titulo }} | Panel Profesor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_cursos' %}" class="btn btn-outline-light btn-sm">Cursos</a>
+<a href="{% url 'cursos:profesor_dashboard' %}" class="btn btn-outline-light btn-sm">Panel</a>
+</div>
+</nav>
+
+<div class="container mt-4">
+<h1>{{ curso.icono }} {{ curso.titulo }}</h1>
+<p class="text-muted">{{ curso.descripcion }}</p>
+
+<div class="row mb-4">
+<div class="col-md-4">
+<div class="card text-center bg-primary text-white">
+<div class="card-body"><h6>Inscritos</h6><h2>{{ total_inscritos }}</h2></div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card text-center bg-success text-white">
+<div class="card-body"><h6>Completados</h6><h2>{{ completados }}</h2></div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card text-center bg-warning text-dark">
+<div class="card-body"><h6>XP promedio</h6><h2>{{ xp_promedio }}</h2></div>
+</div>
+</div>
+</div>
+
+<h3>Estudiantes inscritos</h3>
+<table class="table table-hover">
+<thead class="table-light">
+<tr><th>#</th><th>Estudiante</th><th>XP</th><th>Progreso</th><th>Estado</th><th>Accion</th></tr>
+</thead>
+<tbody>
+{% for i in inscritos %}
+<tr>
+<td>{{ forloop.counter }}</td>
+<td><a href="{% url 'cursos:profesor_estudiante' i.estudiante.id %}">{{ i.estudiante.username }}</a></td>
+<td>{{ i.xp_acumulado }} XP</td>
+<td>
+<div class="progress" style="height: 20px; width: 150px;">
+<div class="progress-bar bg-success" style="width: {{ i.progreso }}%">{{ i.progreso }}%</div>
+</div>
+</td>
+<td>{% if i.completado %}<span class="badge bg-success">Completado</span>{% else %}<span class="badge bg-secondary">En progreso</span>{% endif %}</td>
+<td>
+{% if not i.completado %}
+<form method="post" action="{% url 'cursos:profesor_otorgar_certificado' i.estudiante.id curso.id %}" style="display:inline;">
+{% csrf_token %}
+<button type="submit" class="btn btn-sm btn-success">Otorgar certificado</button>
+</form>
+{% else %}
+<span class="text-success">OK</span>
+{% endif %}
+</td>
+</tr>
+{% empty %}
+<tr><td colspan="6" class="text-muted">Sin inscritos.</td></tr>
+{% endfor %}
+</tbody>
+</table>
+
+</div>
+</body>
+</html>

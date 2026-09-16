@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Panel Profesor | Lexicon Logic</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_cursos' %}" class="btn btn-outline-light btn-sm">Cursos</a>
+<a href="{% url 'cursos:profesor_ranking' %}" class="btn btn-outline-light btn-sm">Ranking</a>
+<a href="{% url 'cursos:dashboard' %}" class="btn btn-outline-light btn-sm">Vista estudiante</a>
+<a href="{% url 'logout' %}" class="btn btn-outline-light btn-sm">Salir</a>
+</div>
+</nav>
+
+<div class="container mt-4">
+<h1>Panel del Profesor</h1>
+<p class="text-muted">Bienvenido, {{ user.username }} ({{ user.profile.get_rol_display }})</p>
+
+<!-- KPIs -->
+<div class="row mb-4">
+<div class="col-md-2 mb-2">
+<div class="card text-center bg-primary text-white">
+<div class="card-body">
+<h6>Cursos</h6>
+<h2>{{ total_cursos }}</h2>
+</div>
+</div>
+</div>
+<div class="col-md-2 mb-2">
+<div class="card text-center bg-info text-white">
+<div class="card-body">
+<h6>Lecciones</h6>
+<h2>{{ total_lecciones }}</h2>
+</div>
+</div>
+</div>
+<div class="col-md-2 mb-2">
+<div class="card text-center bg-warning text-dark">
+<div class="card-body">
+<h6>Ejercicios</h6>
+<h2>{{ total_ejercicios }}</h2>
+</div>
+</div>
+</div>
+<div class="col-md-2 mb-2">
+<div class="card text-center bg-success text-white">
+<div class="card-body">
+<h6>Estudiantes</h6>
+<h2>{{ total_estudiantes }}</h2>
+</div>
+</div>
+</div>
+<div class="col-md-2 mb-2">
+<div class="card text-center bg-secondary text-white">
+<div class="card-body">
+<h6>Inscripciones</h6>
+<h2>{{ total_inscripciones }}</h2>
+</div>
+</div>
+</div>
+<div class="col-md-2 mb-2">
+<div class="card text-center bg-dark text-white">
+<div class="card-body">
+<h6>Certificados</h6>
+<h2>{{ total_certificados }}</h2>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Tabla de estudiantes -->
+<div class="card shadow-sm mb-4">
+<div class="card-body">
+<h4>Estudiantes ({{ estudiantes|length }})</h4>
+<div class="table-responsive">
+<table class="table table-hover align-middle">
+<thead class="table-light">
+<tr>
+<th>#</th>
+<th>Estudiante</th>
+<th>Nivel</th>
+<th>XP Total</th>
+<th>Cursos</th>
+<th>Certificados</th>
+<th>Acciones</th>
+</tr>
+</thead>
+<tbody>
+{% for e in estudiantes %}
+<tr>
+<td>{{ forloop.counter }}</td>
+<td>
+<a href="{% url 'cursos:profesor_estudiante' e.id %}"><strong>{{ e.username }}</strong></a>
+<div class="small text-muted">{{ e.email }}</div>
+</td>
+<td>
+<span class="badge bg-warning text-dark">Nv. {{ e.nivel }}</span>
+<div class="progress mt-1" style="height:6px;width:80px;">
+<div class="progress-bar bg-warning" style="width: {{ e.progreso_siguiente }}%"></div>
+</div>
+</td>
+<td><strong>{{ e.xp_total|default:0 }}</strong> XP</td>
+<td>{{ e.num_inscripciones }}</td>
+<td><span class="badge bg-success">{{ e.num_certificados }}</span></td>
+<td>
+<a href="{% url 'cursos:profesor_estudiante' e.id %}" class="btn btn-sm btn-outline-primary">Ver</a>
+</td>
+</tr>
+{% empty %}
+<tr><td colspan="7" class="text-center text-muted">No hay estudiantes registrados.</td></tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<!-- Top cursos -->
+<div class="card shadow-sm mb-4">
+<div class="card-body">
+<h4>Top cursos por inscripciones</h4>
+<div class="table-responsive">
+<table class="table table-hover">
+<thead class="table-light">
+<tr>
+<th>#</th>
+<th>Curso</th>
+<th>Inscritos</th>
+<th>Completados</th>
+<th>Lecciones</th>
+<th>Acciones</th>
+</tr>
+</thead>
+<tbody>
+{% for c in cursos_stats %}
+<tr>
+<td>{{ forloop.counter }}</td>
+<td>{{ c.icono }} {{ c.titulo }}</td>
+<td><span class="badge bg-primary">{{ c.num_inscritos }}</span></td>
+<td>{{ c.num_completados|default:0 }}</td>
+<td>{{ c.num_lecciones_curso }}</td>
+<td>
+<a href="{% url 'cursos:profesor_curso_detail' c.id %}" class="btn btn-sm btn-outline-primary">Ver</a>
+</td>
+</tr>
+{% empty %}
+<tr><td colspan="6" class="text-center text-muted">Sin cursos.</td></tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<!-- Certificados recientes -->
+<div class="card shadow-sm">
+<div class="card-body">
+<h4>Certificados recientes</h4>
+<ul class="list-group list-group-flush">
+{% for c in certificados_recientes %}
+<li class="list-group-item d-flex justify-content-between">
+<span><strong>{{ c.inscripcion.estudiante.username }}</strong> - {{ c.inscripcion.curso.titulo }}</span>
+<span class="badge bg-success">{{ c.codigo }} - {{ c.puntaje }}%</span>
+</li>
+{% empty %}
+<li class="list-group-item text-muted">Sin certificados.</li>
+{% endfor %}
+</ul>
+</div>
+</div>
+
+</div>
+</body>
+</html>

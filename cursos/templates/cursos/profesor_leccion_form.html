@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>{{ titulo }} | Panel Profesor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_curso_detail' curso.id %}" class="btn btn-outline-light btn-sm">Volver al curso</a>
+</div>
+</nav>
+
+<div class="container mt-4" style="max-width: 700px;">
+<h1>{{ titulo }}</h1>
+<p class="text-muted">Curso: {{ curso.titulo }}</p>
+
+<form method="post" class="card shadow-sm p-4">
+{% csrf_token %}
+
+<div class="mb-3">
+<label class="form-label">Titulo *</label>
+{{ form.titulo }}
+</div>
+
+<div class="row">
+<div class="col-md-6 mb-3">
+<label class="form-label">Subclase</label>
+{{ form.subclase }}
+</div>
+<div class="col-md-3 mb-3">
+<label class="form-label">Orden</label>
+{{ form.orden }}
+</div>
+<div class="col-md-3 mb-3">
+<label class="form-label">XP reward</label>
+{{ form.xp_reward }}
+</div>
+</div>
+
+<div class="mb-3">
+<label class="form-label">Teoria</label>
+{{ form.teoria }}
+</div>
+
+<button type="submit" class="btn btn-primary">{{ accion }}</button>
+<a href="{% url 'cursos:profesor_curso_detail' curso.id %}" class="btn btn-secondary">Cancelar</a>
+</form>
+
+</div>
+</body>
+</html>

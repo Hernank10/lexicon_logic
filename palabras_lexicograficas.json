@@ -1,0 +1,4196 @@
+{
+  "meta": {
+    "titulo": "Diccionario Lexicogr�fico del Castellano",
+    "descripcion": "100 entradas l�xicas con estructura lexicogr�fica completa",
+    "version": "2.0",
+    "idioma": "es",
+    "norma": "Estructura basada en DLE (RAE), DEM y modelos de lexicograf�a moderna",
+    "total_entradas": 100,
+    "fecha_creacion": "2026-09-15",
+    "autor": "Hernank10"
+  },
+  "entradas": [
+    {
+      "lema": "casa",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Edificio o parte de �l destinado a vivienda, especialmente el que constituye una unidad familiar.",
+      "acepciones": [
+        "Edificio destinado a vivienda.",
+        "Conjunto de personas que viven en una misma casa.",
+        "Local o establecimiento comercial (casa de comidas).",
+        "Linaje o familia noble (la casa de Borb�n)."
+      ],
+      "etimologia": "Del lat�n 'casa', caba�a o choza.",
+      "ejemplo": "Mi casa est� cerca del parque.",
+      "sinonimos": ["hogar", "vivienda", "morada", "domicilio", "residencia"],
+      "antonimos": ["calle", "exterior", "intemperie"],
+      "familia_lexica": ["casero", "caser�n", "casita", "casita", "casar", "casamiento"],
+      "locuciones": ["casa de campo", "casa de hu�spedes", "en casa del herrero cuchillo de palo"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "vivienda",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "agua",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Sustancia l�quida, transparente, inodora e ins�pida, compuesta de hidr�geno y ox�geno, esencial para la vida.",
+      "acepciones": [
+        "L�quido esencial para la vida.",
+        "Lluvia o precipitaci�n (caer agua).",
+        "Curso de agua natural (agua dulce, agua salada).",
+        "Jugo o l�quido de ciertos frutos (agua de coco)."
+      ],
+      "etimologia": "Del lat�n 'aqua'.",
+      "ejemplo": "Debemos beber agua todos los d�as.",
+      "sinonimos": ["l�quido", "fluido", "elemento"],
+      "antonimos": ["fuego", "sequedad"],
+      "familia_lexica": ["acuoso", "acu�fero", "acuario", "aguar", "aguacero"],
+      "locuciones": ["agua de colonia", "agua dulce", "agua salada", "como pez en el agua"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "amor",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Sentimiento intenso del ser humano que, partiendo de su propia insuficiencia, necesita y busca el encuentro y uni�n con otro ser.",
+      "acepciones": [
+        "Sentimiento de afecto profundo.",
+        "Persona amada (mi amor).",
+        "Esmero con que se hace algo (hacer algo con amor).",
+        "En plural: asuntos amorosos."
+      ],
+      "etimologia": "Del lat�n 'amor', 'amoris'.",
+      "ejemplo": "El amor de una madre es incondicional.",
+      "sinonimos": ["afecto", "cari�o", "pasi�n", "ternura", "devoci�n"],
+      "antonimos": ["odio", "desamor", "indiferencia", "rencor"],
+      "familia_lexica": ["amar", "amante", "amoroso", "enamorar", "enamorado", "amorio"],
+      "locuciones": ["amor propio", "por amor al arte", "amor a primera vista", "hacer el amor"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "emoci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "vida",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Fuerza o actividad esencial mediante la que obra el ser que la posee.",
+      "acepciones": [
+        "Estado de actividad de los seres org�nicos.",
+        "Tiempo de existencia (toda la vida).",
+        "Modo de vivir (vida tranquila).",
+        "Biograf�a (vida de Cervantes).",
+        "Medio de subsistencia (ganarse la vida)."
+      ],
+      "etimologia": "Del lat�n 'vita'.",
+      "ejemplo": "La vida es un regalo.",
+      "sinonimos": ["existencia", "vivir", "�nima", "aliento", "ser"],
+      "antonimos": ["muerte", "fallecimiento", "inexistencia"],
+      "familia_lexica": ["vivir", "vital", "vitalidad", "vivencia", "vivaz", "vividor"],
+      "locuciones": ["de por vida", "ganarse la vida", "media vida", "toda la vida"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "existencia",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "tiempo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Magnitud f�sica que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro.",
+      "acepciones": [
+        "Duraci�n de las cosas.",
+        "�poca o per�odo determinado (tiempo de guerra).",
+        "Oportunidad para hacer algo (es tiempo de actuar).",
+        "Estado atmosf�rico (hace buen tiempo).",
+        "En gram�tica: categor�a verbal."
+      ],
+      "etimologia": "Del lat�n 'tempus', 'temporis'.",
+      "ejemplo": "No tengo tiempo para perder.",
+      "sinonimos": ["�poca", "per�odo", "duraci�n", "temporada", "lapso"],
+      "antonimos": ["eternidad", "atemporalidad"],
+      "familia_lexica": ["temporal", "temporada", "tempor�neo", "temporizar", "tiempo"],
+      "locuciones": ["a tiempo", "con el tiempo", "en otros tiempos", "matar el tiempo", "tiempo completo"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "f�sica",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "ser",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Verbo copulativo que atribuye al sujeto una cualidad o estado.",
+      "acepciones": [
+        "Existir (pienso, luego existo).",
+        "Tener una cualidad (ser alto).",
+        "Ocurrir (fue en verano).",
+        "Pertenecer (es de mi familia).",
+        "Como sustantivo: ente, esencia."
+      ],
+      "etimologia": "Del lat�n 'esse'.",
+      "ejemplo": "Quiero ser m�dico.",
+      "sinonimos": ["existir", "haber", "constituir"],
+      "antonimos": ["no ser", "dejar de ser"],
+      "familia_lexica": ["esencia", "esencial", "ente", "entelequia", "ser"],
+      "locuciones": ["ser de", "ser para", "o sea", "�rase que se era"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "gram�tica",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "aprender",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Adquirir el conocimiento de algo por medio del estudio o de la experiencia.",
+      "acepciones": [
+        "Adquirir conocimiento.",
+        "Retener en la memoria (aprender de memoria).",
+        "Tomar ejemplo (aprender de los errores)."
+      ],
+      "etimologia": "Del lat�n 'apprehendere', asir, coger.",
+      "ejemplo": "Quiero aprender tres idiomas.",
+      "sinonimos": ["estudiar", "instruirse", "memorizar", "asimilar", "captar"],
+      "antonimos": ["olvidar", "ignorar", "desaprender"],
+      "familia_lexica": ["aprendiz", "aprendizaje", "aprehender", "aprensi�n"],
+      "locuciones": ["aprender de memoria", "aprender a", "nunca se termina de aprender"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "educaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "bueno",
+      "categoria_gramatical": "adjetivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Que tiene las cualidades que le son propias o que resultan convenientes para un fin.",
+      "acepciones": [
+        "De cualidad positiva (buena persona).",
+        "�til o conveniente (buen consejo).",
+        "Sano (buena salud).",
+        "Agradable al gusto (buen sabor)."
+      ],
+      "etimologia": "Del lat�n 'bonus'.",
+      "ejemplo": "Eres una buena persona.",
+      "sinonimos": ["bondadoso", "ben�volo", "virtuoso", "excelente", "�ptimo"],
+      "antonimos": ["malo", "perverso", "nocivo", "in�til"],
+      "familia_lexica": ["bondad", "bonito", "bonanza", "bien", "beneficio"],
+      "locuciones": ["buena fe", "buena voluntad", "buenos d�as", "de buenas"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "valoraci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "libertad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Facultad natural que tiene el hombre de obrar de una manera o de otra, y de no obrar, por lo que es responsable de sus actos.",
+      "acepciones": [
+        "Facultad de obrar seg�n la propia voluntad.",
+        "Estado del que no est� preso.",
+        "Falta de sujeci�n o subordinaci�n.",
+        "En filosof�a: capacidad de autodeterminaci�n."
+      ],
+      "etimologia": "Del lat�n 'libertas', 'libertatis'.",
+      "ejemplo": "La libertad es un derecho fundamental.",
+      "sinonimos": ["independencia", "autonom�a", "soberan�a", "franquicia"],
+      "antonimos": ["esclavitud", "opresi�n", "cautiverio", "tiran�a"],
+      "familia_lexica": ["libre", "liberar", "libertario", "liberal", "liberalismo"],
+      "locuciones": ["libertad de expresi�n", "libertad condicional", "poner en libertad"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "derecho",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "conocimiento",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de conocer. Entendimiento, inteligencia, raz�n natural.",
+      "acepciones": [
+        "Facultad de conocer.",
+        "Conjunto de saberes.",
+        "Conciencia de la propia existencia.",
+        "En filosof�a: relaci�n sujeto-objeto."
+      ],
+      "etimologia": "Del lat�n 'cognoscere', conocer.",
+      "ejemplo": "El conocimiento es poder.",
+      "sinonimos": ["saber", "sabidur�a", "erudici�n", "ciencia", "instrucci�n"],
+      "antonimos": ["ignorancia", "desconocimiento", "incultura"],
+      "familia_lexica": ["conocer", "conocido", "conocedor", "cognitivo", "cognici�n"],
+      "locuciones": ["conocimiento de causa", "poner en conocimiento", "llegar a conocimiento"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "epistemolog�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "cultura",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de modos de vida y costumbres, conocimientos y grado de desarrollo art�stico, cient�fico, industrial, en una �poca o grupo social.",
+      "acepciones": [
+        "Conjunto de conocimientos.",
+        "Conjunto de manifestaciones art�sticas.",
+        "Modo de vida de un pueblo.",
+        "En biolog�a: cultivo de microorganismos."
+      ],
+      "etimologia": "Del lat�n 'cultura', cultivo, crianza.",
+      "ejemplo": "La cultura griega influy� en Occidente.",
+      "sinonimos": ["civilizaci�n", "tradici�n", "saber", "ilustraci�n", "formaci�n"],
+      "antonimos": ["incultura", "barbarie", "ignorancia"],
+      "familia_lexica": ["culto", "cultural", "cultivar", "cultivo", "culto"],
+      "locuciones": ["cultura popular", "cultura de masas", "choque cultural"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "historia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Narraci�n y exposici�n de los acontecimientos pasados y dignos de memoria.",
+      "acepciones": [
+        "Disciplina que estudia el pasado.",
+        "Conjunto de sucesos del pasado.",
+        "Narraci�n ordenada de sucesos.",
+        "Biograf�a o relato."
+      ],
+      "etimologia": "Del lat�n 'historia', del griego 'histor�a', investigaci�n.",
+      "ejemplo": "Estudio la historia de Roma.",
+      "sinonimos": ["cr�nica", "relato", "anal", "memoria", "pasado"],
+      "antonimos": ["presente", "futuro"],
+      "familia_lexica": ["hist�rico", "historiador", "historieta", "historizar"],
+      "locuciones": ["pasar a la historia", "historia cl�nica", "novela hist�rica"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "ciencia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de conocimientos obtenidos mediante la observaci�n y el razonamiento, sistem�ticamente estructurados.",
+      "acepciones": [
+        "Conocimiento sistem�tico.",
+        "Cada rama del saber (ciencia m�dica).",
+        "Saber o erudici�n."
+      ],
+      "etimologia": "Del lat�n 'scientia', conocimiento.",
+      "ejemplo": "La ciencia avanza cada d�a.",
+      "sinonimos": ["saber", "disciplina", "estudio", "conocimiento", "doctrina"],
+      "antonimos": ["pseudociencia", "ignorancia", "superstici�n"],
+      "familia_lexica": ["cient�fico", "cientifismo", "conciencia"],
+      "locuciones": ["ciencia ficci�n", "ciencias exactas", "ciencias naturales"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "epistemolog�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "arte",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Actividad humana que tiene como fin la creaci�n de obras bellas o la expresi�n de emociones.",
+      "acepciones": [
+        "Manifestaci�n creativa.",
+        "Conjunto de obras art�sticas.",
+        "Habilidad o destreza (arte culinario).",
+        "En plural: bellas artes."
+      ],
+      "etimologia": "Del lat�n 'ars', 'artis'.",
+      "ejemplo": "El arte refleja la sociedad.",
+      "sinonimos": ["creaci�n", "obra", "expresi�n", "est�tica", "bellas artes"],
+      "antonimos": ["naturaleza", "tosquedad"],
+      "familia_lexica": ["artista", "art�stico", "artesano", "artificial", "artefacto"],
+      "locuciones": ["arte abstracto", "por amor al arte", "malas artes", "obra de arte"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cultura",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "m�sica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Arte de combinar los sonidos de la voz humana o de los instrumentos, o de unos y otros a la vez, de suerte que produzcan deleite.",
+      "acepciones": [
+        "Arte de los sonidos.",
+        "Composici�n musical.",
+        "Conjunto de sonidos agradables.",
+        "En plural: conjunto de obras."
+      ],
+      "etimologia": "Del griego 'mousik�', arte de las musas.",
+      "ejemplo": "Escucho m�sica cl�sica.",
+      "sinonimos": ["melod�a", "armon�a", "sinfon�a", "tonada", "partitura"],
+      "antonimos": ["silencio", "ruido", "estruendo"],
+      "familia_lexica": ["m�sico", "musical", "musicastro", "musicolog�a"],
+      "locuciones": ["m�sica ligera", "m�sica cl�sica", "m�sica de fondo"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "lengua",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Sistema de comunicaci�n verbal y casi siempre escrito, propio de una comunidad humana.",
+      "acepciones": [
+        "�rgano muscular de la boca.",
+        "Sistema ling��stico.",
+        "Idioma de un pueblo.",
+        "En plural: lenguas cl�sicas."
+      ],
+      "etimologia": "Del lat�n 'lingua'.",
+      "ejemplo": "El castellano es una lengua romance.",
+      "sinonimos": ["idioma", "habla", "dialecto", "jerga", "parla"],
+      "antonimos": ["mudez", "silencio"],
+      "familia_lexica": ["ling�ista", "ling��stica", "leng�eta", "lenguaje"],
+      "locuciones": ["lengua materna", "lengua muerta", "lengua franca", "tirar de la lengua"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ling��stica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "paz",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Situaci�n y relaci�n mutua de quienes no est�n en guerra.",
+      "acepciones": [
+        "Estado sin guerra.",
+        "Tranquilidad y sosiego.",
+        "Reconciliaci�n.",
+        "En religi�n: signo de saludo."
+      ],
+      "etimologia": "Del lat�n 'pax', 'pacis'.",
+      "ejemplo": "Queremos paz en el mundo.",
+      "sinonimos": ["tranquilidad", "sosiego", "armon�a", "concordia", "quietud"],
+      "antonimos": ["guerra", "conflicto", "violencia", "discordia"],
+      "familia_lexica": ["pac�fico", "pacificar", "pacificaci�n", "pacifista", "apaciguar"],
+      "locuciones": ["dejar en paz", "hacer las paces", "en paz descanse"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "educaci�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de educar. Crianza, ense�anza y doctrina que se da a los ni�os y a los j�venes.",
+      "acepciones": [
+        "Proceso de ense�anza-aprendizaje.",
+        "Formaci�n integral.",
+        "Cortes�a y urbanidad.",
+        "Sistema educativo."
+      ],
+      "etimologia": "Del lat�n 'educatio', 'educationis'.",
+      "ejemplo": "La educaci�n es un derecho humano.",
+      "sinonimos": ["ense�anza", "formaci�n", "instrucci�n", "crianza", "pedagog�a"],
+      "antonimos": ["ignorancia", "incultura", "analfabetismo"],
+      "familia_lexica": ["educar", "educativo", "educador", "educando", "pedagogo"],
+      "locuciones": ["educaci�n f�sica", "educaci�n superior", "educaci�n sexual"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "educaci�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "familia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Grupo de personas emparentadas entre s� que viven juntas.",
+      "acepciones": [
+        "Grupo de parientes.",
+        "Conjunto de ascendientes y descendientes.",
+        "En biolog�a: categor�a taxon�mica.",
+        "En ling��stica: conjunto de lenguas emparentadas."
+      ],
+      "etimologia": "Del lat�n 'familia'.",
+      "ejemplo": "Mi familia es muy unida.",
+      "sinonimos": ["parientes", "linaje", "parentela", "clan", "tribu"],
+      "antonimos": ["soledad", "orfandad"],
+      "familia_lexica": ["familiar", "familiaridad", "familiarizar", "familiarizado"],
+      "locuciones": ["familia numerosa", "cabeza de familia", "en familia"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "trabajo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de trabajar. Ocupaci�n retribuida.",
+      "acepciones": [
+        "Actividad laboral.",
+        "Obra realizada.",
+        "Lugar donde se trabaja.",
+        "En f�sica: producto de fuerza por desplazamiento."
+      ],
+      "etimologia": "Del lat�n tard�o 'tripaliare', torturar con el tripalium.",
+      "ejemplo": "Mi trabajo es muy interesante.",
+      "sinonimos": ["labor", "ocupaci�n", "empleo", "faena", "tarea"],
+      "antonimos": ["ocio", "descanso", "desempleo", "vagancia"],
+      "familia_lexica": ["trabajar", "trabajador", "trabajoso", "trabajito"],
+      "locuciones": ["trabajo en equipo", "trabajo temporal", "sin trabajo no hay recompensa"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "econom�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "amistad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Afecto personal, puro y desinteresado, compartido con otra persona, que nace y se fortalece con el trato.",
+      "acepciones": [
+        "Relaci�n afectiva entre amigos.",
+        "Afecto desinteresado.",
+        "En plural: conjunto de amigos."
+      ],
+      "etimologia": "Del lat�n 'amicitia'.",
+      "ejemplo": "Nuestra amistad es muy fuerte.",
+      "sinonimos": ["afecto", "cari�o", "compa�erismo", "camarader�a", "confraternidad"],
+      "antonimos": ["enemistad", "odio", "hostilidad", "rivalidad"],
+      "familia_lexica": ["amigo", "amistoso", "enemistad"],
+      "locuciones": ["hacer las amistades", "amistad a prueba de balas"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "relaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "esperanza",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Estado del �nimo en el cual se nos presenta como posible lo que deseamos.",
+      "acepciones": [
+        "Confianza en lograr algo.",
+        "Expectativa favorable.",
+        "En religi�n: virtud teologal."
+      ],
+      "etimologia": "Del lat�n 'spes', 'spei'.",
+      "ejemplo": "Tengo esperanza en el futuro.",
+      "sinonimos": ["confianza", "optimismo", "ilusi�n", "expectativa", "fe"],
+      "antonimos": ["desesperanza", "desesperaci�n", "pesimismo", "desaliento"],
+      "familia_lexica": ["esperar", "esperanzador", "esperanzado", "desesperar"],
+      "locuciones": ["dar esperanzas", "vivir de esperanzas", "la esperanza es lo �ltimo que se pierde"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "emoci�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "verdad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conformidad de las cosas con el concepto que de ellas forma la mente.",
+      "acepciones": [
+        "Conformidad con la realidad.",
+        "Juicio o proposici�n verdadera.",
+        "Sinceridad (decir la verdad).",
+        "En filosof�a: adecuaci�n entre pensamiento y realidad."
+      ],
+      "etimologia": "Del lat�n 'veritas', 'veritatis'.",
+      "ejemplo": "Dime la verdad.",
+      "sinonimos": ["realidad", "certeza", "exactitud", "sinceridad", "autenticidad"],
+      "antonimos": ["mentira", "falsedad", "enga�o", "ficci�n"],
+      "familia_lexica": ["verdadero", "verdaderamente", "verificar", "verificaci�n"],
+      "locuciones": ["verdad de Perogrullo", "a decir verdad", "media verdad", "verdades como pu�os"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "filosof�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "justicia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Principio moral que lleva a dar a cada uno lo que le corresponde o pertenece.",
+      "acepciones": [
+        "Principio de equidad.",
+        "Poder judicial.",
+        "Castigo o sanci�n justa.",
+        "En filosof�a: virtud cardinal."
+      ],
+      "etimologia": "Del lat�n 'iustitia'.",
+      "ejemplo": "Exijo justicia para todos.",
+      "sinonimos": ["equidad", "imparcialidad", "rectitud", "legalidad", "derecho"],
+      "antonimos": ["injusticia", "arbitrariedad", "impunidad", "corrupci�n"],
+      "familia_lexica": ["justo", "justificar", "justificaci�n", "injusticia"],
+      "locuciones": ["hacer justicia", "justicia po�tica", "por encima de la justicia"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "derecho",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "naturaleza",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de todo lo que existe y que est� determinado y armonizado por sus propias leyes.",
+      "acepciones": [
+        "Mundo f�sico.",
+        "Esencia o propiedad de algo.",
+        "Instinto natural.",
+        "En filosof�a: principio de las cosas."
+      ],
+      "etimologia": "Del lat�n 'natura'.",
+      "ejemplo": "Amo la naturaleza.",
+      "sinonimos": ["medio ambiente", "medio natural", "cosmos", "universo", "creaci�n"],
+      "antonimos": ["artificialidad", "cultura", "civilizaci�n"],
+      "familia_lexica": ["natural", "naturalismo", "naturalista", "naturalizar"],
+      "locuciones": ["madre naturaleza", "por naturaleza", "naturaleza humana"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "mundo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Conjunto de todas las cosas creadas. Planeta que habitamos.",
+      "acepciones": [
+        "Conjunto de todo lo existente.",
+        "Planeta Tierra.",
+        "Sociedad humana.",
+        "�mbito propio de una actividad (mundo del arte)."
+      ],
+      "etimologia": "Del lat�n 'mundus'.",
+      "ejemplo": "El mundo es diverso.",
+      "sinonimos": ["universo", "cosmos", "planeta", "tierra", "humanidad"],
+      "antonimos": ["nada", "vac�o"],
+      "familia_lexica": ["mundial", "mundano", "mundillo", "mundolog�a"],
+      "locuciones": ["todo el mundo", "poner el mundo por testigo", "venir al mundo"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cosmolog�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "agua",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Sustancia l�quida, transparente, inodora e ins�pida, compuesta de hidr�geno y ox�geno.",
+      "acepciones": [
+        "L�quido esencial para la vida.",
+        "Lluvia (caer agua).",
+        "Curso natural (agua dulce).",
+        "Jugo de frutas (agua de coco)."
+      ],
+      "etimologia": "Del lat�n 'aqua'.",
+      "ejemplo": "Bebo agua todos los d�as.",
+      "sinonimos": ["l�quido", "fluido", "elemento"],
+      "antonimos": ["fuego", "sequedad"],
+      "familia_lexica": ["acuoso", "acu�fero", "acuario", "aguar"],
+      "locuciones": ["agua de colonia", "agua bendita", "como pez en el agua"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "sol",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Estrella luminosa, centro de nuestro sistema planetario.",
+      "acepciones": [
+        "Estrella del sistema solar.",
+        "Luz y calor del sol.",
+        "D�a soleado.",
+        "En m�sica: nota."
+      ],
+      "etimologia": "Del lat�n 'sol', 'solis'.",
+      "ejemplo": "El sol brilla hoy.",
+      "sinonimos": ["astro", "estrella", "luminaria"],
+      "antonimos": ["sombra", "oscuridad", "noche"],
+      "familia_lexica": ["solar", "soleado", "solana", "soslayar"],
+      "locuciones": ["ponerse el sol", "de sol a sol", "no dejar ni a sol ni a sombra"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "luna",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Sat�lite natural de la Tierra, que refleja la luz del Sol.",
+      "acepciones": [
+        "Sat�lite terrestre.",
+        "Sat�lite de otro planeta.",
+        "Espejo o cristal (luna de espejo).",
+        "En plural: mal humor."
+      ],
+      "etimologia": "Del lat�n 'luna'.",
+      "ejemplo": "La luna est� llena esta noche.",
+      "sinonimos": ["sat�lite", "astro nocturno", "selene"],
+      "antonimos": ["sol"],
+      "familia_lexica": ["lunar", "lun�tico", "lunes", "lunaci�n"],
+      "locuciones": ["luna de miel", "estar en la luna", "pedir la luna"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "libro",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Conjunto de hojas de papel u otro material, encuadernadas y protegidas con tapas, que contienen un texto.",
+      "acepciones": [
+        "Obra escrita.",
+        "Volumen encuadernado.",
+        "Registro o cuenta (libro de cuentas)."
+      ],
+      "etimologia": "Del lat�n 'liber', 'libri'.",
+      "ejemplo": "Leo un libro interesante.",
+      "sinonimos": ["obra", "volumen", "tomo", "texto", "publicaci�n"],
+      "antonimos": ["hoja suelta"],
+      "familia_lexica": ["librer�a", "librero", "libreta", "folleto"],
+      "locuciones": ["libro de texto", "libro mayor", "hablar como un libro"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cultura",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "palabra",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Unidad ling��stica dotada de significado, que se a�sla mediante pausas en la lengua oral y entre espacios en la escrita.",
+      "acepciones": [
+        "Unidad l�xica.",
+        "Facultad de hablar.",
+        "Promesa (dar palabra).",
+        "En plural: discurso."
+      ],
+      "etimologia": "Del lat�n 'parabola'.",
+      "ejemplo": "Las palabras tienen poder.",
+      "sinonimos": ["vocablo", "t�rmino", "voz", "expresi�n", "locuci�n"],
+      "antonimos": ["silencio", "mudez"],
+      "familia_lexica": ["palabrer�a", "palabrota", "palabrita", "palabrear"],
+      "locuciones": ["palabra de honor", "de palabra", "medias palabras", "no tener palabras"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ling��stica",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "decir",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Manifestar con palabras el pensamiento.",
+      "acepciones": [
+        "Expresar verbalmente.",
+        "Opinar o juzgar.",
+        "Indicar o significar.",
+        "Llamar o nombrar."
+      ],
+      "etimologia": "Del lat�n 'dicere'.",
+      "ejemplo": "Quiero decir algo importante.",
+      "sinonimos": ["manifestar", "expresar", "declarar", "pronunciar", "comunicar"],
+      "antonimos": ["callar", "silenciar", "omitir"],
+      "familia_lexica": ["dicci�n", "dicho", "dictado", "dictador", "dictamen"],
+      "locuciones": ["querer decir", "es decir", "como quien no dice nada", "decir por decir"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "comunicaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "escribir",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Representar las palabras o las ideas con letras u otros signos trazados en papel u otra superficie.",
+      "acepciones": [
+        "Trazar signos gr�ficos.",
+        "Componer obras escritas.",
+        "Enviar cartas.",
+        "Grabar (escribir en piedra)."
+      ],
+      "etimologia": "Del lat�n 'scribere'.",
+      "ejemplo": "Me gusta escribir historias.",
+      "sinonimos": ["redactar", "componer", "anotar", "apuntar", "transcribir"],
+      "antonimos": ["borrar", "leer", "callar"],
+      "familia_lexica": ["escritor", "escritura", "escrito", "escribano", "manuscrito"],
+      "locuciones": ["escribir a m�quina", "escribir a mano", "escribir en el agua"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "comunicaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "leer",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Pasar la vista por lo escrito o impreso comprendiendo la significaci�n de los caracteres empleados.",
+      "acepciones": [
+        "Interpretar un texto.",
+        "Descifrar un c�digo.",
+        "Comprender el pensamiento ajeno.",
+        "En inform�tica: extraer datos."
+      ],
+      "etimologia": "Del lat�n 'legere'.",
+      "ejemplo": "Quiero leer m�s libros.",
+      "sinonimos": ["interpretar", "descifrar", "comprender", "repasar"],
+      "antonimos": ["escribir", "ignorar", "omitir"],
+      "familia_lexica": ["lector", "lectura", "legible", "ilegible", "lecci�n"],
+      "locuciones": ["leer entre l�neas", "leer la cartilla", "leer el pensamiento"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "comunicaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "tener",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Poseer o ser due�o de algo.",
+      "acepciones": [
+        "Poseer algo.",
+        "Mantener o sostener.",
+        "Haber o existir (tener lugar).",
+        "Como auxiliar: haber (tener hecho)."
+      ],
+      "etimologia": "Del lat�n 'tenere'.",
+      "ejemplo": "Tengo un sue�o.",
+      "sinonimos": ["poseer", "gozar", "disfrutar", "contar con", "disponer de"],
+      "antonimos": ["carecer", "faltar", "perder"],
+      "familia_lexica": ["tenencia", "tenedor", "retener", "contener", "mantener"],
+      "locuciones": ["tener raz�n", "tener lugar", "tener en cuenta", "tener ganas"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "gram�tica",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "hacer",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Producir, fabricar, elaborar algo.",
+      "acepciones": [
+        "Realizar una acci�n.",
+        "Fabricar o construir.",
+        "Causar o provocar.",
+        "Como impersonal: referirse al tiempo."
+      ],
+      "etimologia": "Del lat�n 'facere'.",
+      "ejemplo": "Voy a hacer ejercicio.",
+      "sinonimos": ["realizar", "ejecutar", "efectuar", "fabricar", "elaborar"],
+      "antonimos": ["deshacer", "destruir", "omitir"],
+      "familia_lexica": ["hecho", "hacedor", "haza�a", "factor�a", "manufactura"],
+      "locuciones": ["hacer caso", "hacer falta", "hacer las paces", "hacer el amor"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "acci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "vivir",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Tener vida. Durar con vida.",
+      "acepciones": [
+        "Tener vida.",
+        "Habitar o residir.",
+        "Disfrutar de la vida.",
+        "Mantenerse o durar."
+      ],
+      "etimologia": "Del lat�n 'vivere'.",
+      "ejemplo": "Quiero vivir en paz.",
+      "sinonimos": ["existir", "habitar", "residir", "morar", "subsistir"],
+      "antonimos": ["morir", "fallecer", "perecer"],
+      "familia_lexica": ["vida", "viviente", "vivencia", "convivir", "sobrevivir"],
+      "locuciones": ["vivir del cuento", "vivir al d�a", "vivir para ver"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "existencia",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "querer",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Desear o apetecer algo.",
+      "acepciones": [
+        "Desear algo.",
+        "Amar a alguien.",
+        "Aceptar o consentir.",
+        "Como sustantivo: amor."
+      ],
+      "etimologia": "Del lat�n 'quaerere'.",
+      "ejemplo": "Quiero aprender idiomas.",
+      "sinonimos": ["desear", "amar", "apetecer", "anhelar", "ansiar"],
+      "antonimos": ["odiar", "rechazar", "despreciar"],
+      "familia_lexica": ["querido", "querencia", "desquerer"],
+      "locuciones": ["querer decir", "como quiera que", "sin querer", "querer es poder"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "volici�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "poder",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Tener expedita la facultad o potencia de hacer algo.",
+      "acepciones": [
+        "Tener capacidad.",
+        "Tener permiso.",
+        "Tener fuerza.",
+        "Como sustantivo: dominio, facultad."
+      ],
+      "etimologia": "Del lat�n vulgar 'potere'.",
+      "ejemplo": "Puedo lograrlo.",
+      "sinonimos": ["ser capaz", "tener facultad", "disponer", "dominar", "mandar"],
+      "antonimos": ["no poder", "incapacitar", "impedir"],
+      "familia_lexica": ["poderoso", "potencia", "potencial", "poder�o", "potestad"],
+      "locuciones": ["poder ser", "no poder m�s", "a m�s poder"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "modalidad",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "saber",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Conocer algo, o tener noticia o conocimiento de ello.",
+      "acepciones": [
+        "Tener conocimiento.",
+        "Tener habilidad.",
+        "Tener sabor.",
+        "Como sustantivo: conocimiento."
+      ],
+      "etimologia": "Del lat�n 'sapere'.",
+      "ejemplo": "Quiero saber la verdad.",
+      "sinonimos": ["conocer", "entender", "comprender", "dominar", "estar enterado"],
+      "antonimos": ["ignorar", "desconocer", "dudar"],
+      "familia_lexica": ["sabio", "sabidur�a", "saborear", "sabroso", "saber"],
+      "locuciones": ["a saber", "hacer saber", "saber a", "m�s sabe el diablo por viejo"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "conocimiento",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "ni�o",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Persona que est� en la ni�ez.",
+      "acepciones": [
+        "Persona de poca edad.",
+        "Persona ingenua o inexperta.",
+        "En plural: hijos."
+      ],
+      "etimologia": "De origen onomatop�yico.",
+      "ejemplo": "El ni�o juega en el parque.",
+      "sinonimos": ["chico", "chaval", "criatura", "infante", "peque�o"],
+      "antonimos": ["adulto", "viejo", "anciano"],
+      "familia_lexica": ["ni�ez", "ni�era", "ni�er�a", "ani�ado"],
+      "locuciones": ["ni�o bien", "ni�o de pecho", "desde ni�o"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [
+        {"pais": "M�xico", "forma": "chamaco"},
+        {"pais": "Argentina", "forma": "pibe"},
+        {"pais": "Colombia", "forma": "pelao"}
+      ],
+      "categoria_semantica": "persona",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "mujer",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Persona del sexo femenino.",
+      "acepciones": [
+        "Persona adulta femenina.",
+        "Esposa o pareja.",
+        "Cualidad femenina."
+      ],
+      "etimologia": "Del lat�n 'mulier', 'mulieris'.",
+      "ejemplo": "Esa mujer es valiente.",
+      "sinonimos": ["dama", "se�ora", "f�mina", "chica"],
+      "antonimos": ["hombre", "var�n"],
+      "familia_lexica": ["mujeril", "mujeriego", "mujercita"],
+      "locuciones": ["mujer de su casa", "mujer fatal", "mujer p�blica"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "persona",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "hombre",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Ser humano del sexo masculino.",
+      "acepciones": [
+        "Persona adulta masculina.",
+        "Ser humano en general.",
+        "Esposo o pareja."
+      ],
+      "etimologia": "Del lat�n 'homo', 'hominis'.",
+      "ejemplo": "El hombre camina por la calle.",
+      "sinonimos": ["var�n", "se�or", "caballero", "sujeto"],
+      "antonimos": ["mujer", "f�mina"],
+      "familia_lexica": ["hombr�a", "hombret�n", "hombrera", "hom�nculo"],
+      "locuciones": ["hombre de bien", "hombre de negocios", "hombre lobo"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "persona",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "persona",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Individuo de la especie humana.",
+      "acepciones": [
+        "Ser humano.",
+        "En gram�tica: categor�a del verbo.",
+        "En derecho: sujeto de derechos."
+      ],
+      "etimologia": "Del lat�n 'persona', m�scara de actor.",
+      "ejemplo": "Cada persona es �nica.",
+      "sinonimos": ["individuo", "sujeto", "ser humano", "alguien"],
+      "antonimos": ["cosa", "animal", "objeto"],
+      "familia_lexica": ["personal", "personalidad", "personificar", "personaje"],
+      "locuciones": ["persona f�sica", "persona jur�dica", "en persona", "persona mayor"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "persona",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "pensar",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Formar o combinar ideas o juicios en la mente.",
+      "acepciones": [
+        "Reflexionar.",
+        "Opinar o creer.",
+        "Tener intenci�n.",
+        "Considerar o examinar."
+      ],
+      "etimologia": "Del lat�n 'pensare', pesar, considerar.",
+      "ejemplo": "Debo pensar bien las cosas.",
+      "sinonimos": ["reflexionar", "meditar", "considerar", "cavilar", "razonar"],
+      "antonimos": ["actuar sin pensar", "improvisar"],
+      "familia_lexica": ["pensamiento", "pensador", "pensativo", "pensar"],
+      "locuciones": ["pensar mal", "sin pensar", "ni pensarlo", "dar que pensar"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cognici�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "ciudad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de edificios y calles, regidos por un ayuntamiento, cuya poblaci�n densa y numerosa se dedica por lo com�n a actividades no agr�colas.",
+      "acepciones": [
+        "N�cleo urbano.",
+        "Conjunto de habitantes.",
+        "En Chile: conjunto de edificios."
+      ],
+      "etimologia": "Del lat�n 'civitas', 'civitatis'.",
+      "ejemplo": "Vivo en una ciudad grande.",
+      "sinonimos": ["urbe", "metr�poli", "poblaci�n", "municipio", "capital"],
+      "antonimos": ["campo", "pueblo", "aldea"],
+      "familia_lexica": ["ciudadano", "ciudadan�a", "ciudadela"],
+      "locuciones": ["ciudad universitaria", "ciudad perdida", "ciudad de vacaciones"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "pa�s",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Naci�n, regi�n, provincia o territorio.",
+      "acepciones": [
+        "Territorio con gobierno propio.",
+        "Regi�n o territorio.",
+        "En pintura: paisaje."
+      ],
+      "etimologia": "Del franc�s 'pays'.",
+      "ejemplo": "Mi pa�s es hermoso.",
+      "sinonimos": ["naci�n", "estado", "territorio", "regi�n", "rep�blica"],
+      "antonimos": ["extranjero", "exterior"],
+      "familia_lexica": ["paisano", "paisaje", "paisajismo"],
+      "locuciones": ["pa�s en v�as de desarrollo", "pa�s desarrollado", "todo el pa�s"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "escuela",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Establecimiento p�blico o privado donde se imparte cualquier g�nero de instrucci�n.",
+      "acepciones": [
+        "Centro educativo.",
+        "Conjunto de disc�pulos.",
+        "Doctrina o estilo (escuela literaria)."
+      ],
+      "etimologia": "Del lat�n 'schola'.",
+      "ejemplo": "Voy a la escuela todos los d�as.",
+      "sinonimos": ["colegio", "instituto", "academia", "liceo", "centro educativo"],
+      "antonimos": ["ignorancia", "analfabetismo"],
+      "familia_lexica": ["escolar", "escolaridad", "escol�stico"],
+      "locuciones": ["escuela primaria", "escuela secundaria", "escuela de p�rvulos"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "educaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "universidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Instituci�n de ense�anza superior que comprende diversas facultades, y que confiere los grados acad�micos correspondientes.",
+      "acepciones": [
+        "Instituci�n de educaci�n superior.",
+        "Conjunto de facultades.",
+        "Edificio donde se imparte."
+      ],
+      "etimologia": "Del lat�n 'universitas', 'universitatis'.",
+      "ejemplo": "Estudio en la universidad.",
+      "sinonimos": ["facultad", "instituto superior", "centro de estudios superiores"],
+      "antonimos": ["escuela primaria"],
+      "familia_lexica": ["universitario", "universal", "universalidad"],
+      "locuciones": ["universidad p�blica", "universidad privada", "universidad a distancia"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "educaci�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "m�dico",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Persona legalmente autorizada para profesar y ejercer la medicina.",
+      "acepciones": [
+        "Profesional de la medicina.",
+        "Como adjetivo: relativo a la medicina."
+      ],
+      "etimologia": "Del lat�n 'medicus'.",
+      "ejemplo": "El m�dico me atendi� bien.",
+      "sinonimos": ["doctor", "facultativo", "galeno", "sanitario"],
+      "antonimos": ["paciente", "enfermo"],
+      "familia_lexica": ["medicina", "medicinal", "medicaci�n", "medicamento"],
+      "locuciones": ["m�dico de cabecera", "m�dico forense", "m�dico rural"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "profesi�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "maestro",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Persona que ense�a una ciencia, arte u oficio, o tiene t�tulo para hacerlo.",
+      "acepciones": [
+        "Docente.",
+        "Persona con gran habilidad.",
+        "En tauromaquia: matador."
+      ],
+      "etimologia": "Del lat�n 'magister', 'magistri'.",
+      "ejemplo": "Mi maestro es muy sabio.",
+      "sinonimos": ["profesor", "docente", "pedagogo", "mentor", "instructor"],
+      "antonimos": ["alumno", "disc�pulo", "aprendiz"],
+      "familia_lexica": ["maestr�a", "maestranza", "magisterio"],
+      "locuciones": ["maestro de ceremonias", "maestro de obras", "maestro mayor"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "profesi�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "estudiante",
+      "categoria_gramatical": "sustantivo",
+      "genero": "neutro",
+      "numero": "singular",
+      "definicion": "Persona que cursa estudios en un centro docente.",
+      "acepciones": [
+        "Alumno de cualquier nivel.",
+        "Persona dedicada al estudio."
+      ],
+      "etimologia": "Del lat�n 'studens', 'studentis'.",
+      "ejemplo": "Soy estudiante de medicina.",
+      "sinonimos": ["alumno", "disc�pulo", "aprendiz", "escolar", "universitario"],
+      "antonimos": ["profesor", "maestro", "docente"],
+      "familia_lexica": ["estudiar", "estudio", "estudioso", "estudiantil"],
+      "locuciones": ["estudiante universitario", "estudiante de intercambio"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "educaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "pueblo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Ciudad o villa. Poblaci�n de menor categor�a. Conjunto de personas de un lugar, regi�n o pa�s.",
+      "acepciones": [
+        "N�cleo rural.",
+        "Conjunto de habitantes.",
+        "Naci�n o estado."
+      ],
+      "etimologia": "Del lat�n 'populus'.",
+      "ejemplo": "El pueblo vot� por el cambio.",
+      "sinonimos": ["aldea", "villorrio", "municipio", "comunidad", "naci�n"],
+      "antonimos": ["ciudad", "metr�poli", "urbe"],
+      "familia_lexica": ["poblaci�n", "poblar", "poblado", "popular", "populacho"],
+      "locuciones": ["pueblo llano", "todo el pueblo", "pueblo originario"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "gobierno",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de gobernar o gobernarse. Conjunto de los �rganos directores de un Estado.",
+      "acepciones": [
+        "Conjunto de gobernantes.",
+        "Acci�n de gobernar.",
+        "En gram�tica: r�gimen de una palabra."
+      ],
+      "etimologia": "Del lat�n 'gubernare', pilotar.",
+      "ejemplo": "El gobierno anunci� nuevas medidas.",
+      "sinonimos": ["administraci�n", "poder ejecutivo", "r�gimen", "autoridad"],
+      "antonimos": ["oposici�n", "gobernados"],
+      "familia_lexica": ["gobernar", "gobernante", "gobernable", "gobernaci�n"],
+      "locuciones": ["gobierno civil", "gobierno militar", "jefe de gobierno"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "pol�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "ley",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Regla fija a la que est� sometido un fen�meno de la naturaleza. Precepto dictado por la autoridad competente.",
+      "acepciones": [
+        "Norma jur�dica.",
+        "Regla cient�fica.",
+        "Conjunto de normas.",
+        "En religi�n: precepto divino."
+      ],
+      "etimologia": "Del lat�n 'lex', 'legis'.",
+      "ejemplo": "Debemos cumplir la ley.",
+      "sinonimos": ["norma", "regla", "precepto", "mandato", "ordenanza"],
+      "antonimos": ["anarqu�a", "ilegalidad", "desorden"],
+      "familia_lexica": ["legal", "legislar", "legislaci�n", "leg�timo", "ilegal"],
+      "locuciones": ["ley marcial", "ley seca", "ley de la selva", "hacer la ley"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "derecho",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "fe",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de creencias de una religi�n. Confianza, buen concepto que se tiene de alguien o algo.",
+      "acepciones": [
+        "Creencia religiosa.",
+        "Confianza.",
+        "Fidelidad a una promesa.",
+        "En derecho: documento que acredita."
+      ],
+      "etimologia": "Del lat�n 'fides'.",
+      "ejemplo": "Tengo fe en ti.",
+      "sinonimos": ["creencia", "confianza", "convicci�n", "cr�dito", "fidelidad"],
+      "antonimos": ["incredulidad", "desconfianza", "ate�smo", "traici�n"],
+      "familia_lexica": ["fiel", "fidelidad", "fidedigno", "infiel", "fedatario"],
+      "locuciones": ["buena fe", "mala fe", "dar fe", "de buena fe"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "religi�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "sue�o",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Acto de dormir. Imagen o sucesos que se representan en la fantas�a mientras se duerme.",
+      "acepciones": [
+        "Estado de dormir.",
+        "Im�genes on�ricas.",
+        "Deseo o proyecto.",
+        "En plural: ilusiones."
+      ],
+      "etimologia": "Del lat�n 'somnus'.",
+      "ejemplo": "Tuve un sue�o raro.",
+      "sinonimos": ["ensue�o", "fantas�a", "ilusi�n", "aspiraci�n", "pesadilla"],
+      "antonimos": ["vigilia", "realidad", "insomnio"],
+      "familia_lexica": ["so�ar", "so�ador", "somnoliento", "insomnio", "somnolencia"],
+      "locuciones": ["sue�o dorado", "ni en sue�os", "sue�o americano"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "psicolog�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "memoria",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Facultad ps�quica por medio de la cual se retiene y recuerda el pasado.",
+      "acepciones": [
+        "Facultad de recordar.",
+        "Recuerdo.",
+        "Disertaci�n escrita.",
+        "En inform�tica: dispositivo de almacenamiento."
+      ],
+      "etimologia": "Del lat�n 'memoria'.",
+      "ejemplo": "Tengo buena memoria.",
+      "sinonimos": ["recuerdo", "remembranza", "retenci�n", "evocaci�n"],
+      "antonimos": ["olvido", "amnesia"],
+      "familia_lexica": ["memorizar", "memorioso", "conmemorar", "memorial"],
+      "locuciones": ["de memoria", "traer a la memoria", "memoria de elefante"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "psicolog�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "idea",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Primero y m�s obvio de los actos del entendimiento, que se limita al simple conocimiento de algo.",
+      "acepciones": [
+        "Representaci�n mental.",
+        "Plan o proyecto.",
+        "Opini�n o juicio.",
+        "En filosof�a: forma plat�nica."
+      ],
+      "etimologia": "Del griego 'id�a', forma, apariencia.",
+      "ejemplo": "Tengo una idea brillante.",
+      "sinonimos": ["concepto", "noci�n", "pensamiento", "plan", "proyecto"],
+      "antonimos": ["realidad", "hecho"],
+      "familia_lexica": ["ideal", "idear", "ideolog�a", "idealismo"],
+      "locuciones": ["idea fija", "cambiar de idea", "ni idea", "hacerse a la idea"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cognici�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "n�mero",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Expresi�n de una cantidad con relaci�n a su unidad.",
+      "acepciones": [
+        "Expresi�n matem�tica.",
+        "Signo con que se representa.",
+        "Ejemplar de una publicaci�n.",
+        "En gram�tica: accidente."
+      ],
+      "etimologia": "Del lat�n 'numerus'.",
+      "ejemplo": "El n�mero siete es primo.",
+      "sinonimos": ["cifra", "cantidad", "guarismo", "d�gito", "numeral"],
+      "antonimos": ["letra", "palabra"],
+      "familia_lexica": ["numerar", "num�rico", "numeroso", "numeraci�n"],
+      "locuciones": ["n�mero primo", "n�mero entero", "sin n�mero", "en n�meros rojos"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "matem�ticas",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "color",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Sensaci�n producida por los rayos luminosos que impresionan los �rganos visuales.",
+      "acepciones": [
+        "Impresi�n visual.",
+        "Sustancia colorante.",
+        "Aspecto o matiz.",
+        "En plural: colores de una bandera."
+      ],
+      "etimologia": "Del lat�n 'color', 'coloris'.",
+      "ejemplo": "Mi color favorito es el azul.",
+      "sinonimos": ["tono", "matiz", "tinte", "pigmento", "coloraci�n"],
+      "antonimos": ["incoloro", "transparente"],
+      "familia_lexica": ["colorear", "colorido", "colorante", "coloraci�n"],
+      "locuciones": ["color local", "subido de color", "de color"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "percepci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "forma",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Configuraci�n externa de algo.",
+      "acepciones": [
+        "Aspecto exterior.",
+        "Modo o manera.",
+        "En filosof�a: esencia.",
+        "En gram�tica: accidente."
+      ],
+      "etimologia": "Del lat�n 'forma'.",
+      "ejemplo": "La forma de la Tierra es esf�rica.",
+      "sinonimos": ["figura", "silueta", "contorno", "apariencia", "configuraci�n"],
+      "antonimos": ["informe", "amorfo", "fondo"],
+      "familia_lexica": ["formar", "formal", "formato", "formaci�n", "informe"],
+      "locuciones": ["de forma", "forma de ser", "forma de gobierno", "buena forma"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "percepci�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "tama�o",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Magnitud o dimensi�n de una cosa.",
+      "acepciones": [
+        "Dimensi�n.",
+        "Volumen.",
+        "Talla de una prenda."
+      ],
+      "etimologia": "De 'tama�o', del lat�n 'tam magnus', tan grande.",
+      "ejemplo": "El tama�o importa.",
+      "sinonimos": ["dimensi�n", "magnitud", "volumen", "talla", "envergadura"],
+      "antonimos": ["peque�ez", "insignificancia"],
+      "familia_lexica": ["tama�ito"],
+      "locuciones": ["tama�o natural", "tama�o familiar", "de gran tama�o"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "f�sica",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "peso",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Fuerza con que la Tierra atrae a un cuerpo.",
+      "acepciones": [
+        "Fuerza de gravedad.",
+        "Cantidad de materia.",
+        "Balanza o instrumento.",
+        "Carga o agobio.",
+        "Unidad monetaria."
+      ],
+      "etimologia": "Del lat�n 'pensum', pesado.",
+      "ejemplo": "El peso de la mochila es alto.",
+      "sinonimos": ["carga", "masa", "gravidez", "tonelaje"],
+      "antonimos": ["levedad", "ligereza"],
+      "familia_lexica": ["pesar", "pesado", "pesadez", "pesaje", "pesadilla"],
+      "locuciones": ["peso bruto", "peso neto", "peso pesado", "sin peso"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "f�sica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "velocidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Magnitud f�sica que expresa el espacio recorrido por un m�vil en la unidad de tiempo.",
+      "acepciones": [
+        "Rapidez.",
+        "En f�sica: vector.",
+        "Marcha de un veh�culo.",
+        "En fotograf�a: sensibilidad."
+      ],
+      "etimologia": "Del lat�n 'velocitas', 'velocitatis'.",
+      "ejemplo": "La velocidad del sonido es 340 m/s.",
+      "sinonimos": ["rapidez", "celeridad", "presteza", "prontitud"],
+      "antonimos": ["lentitud", "parsimonia", "pausa"],
+      "familia_lexica": ["veloz", "veloc�metro", "velocipedo"],
+      "locuciones": ["a toda velocidad", "velocidad crucero", "exceso de velocidad"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "f�sica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "siempre",
+      "categoria_gramatical": "adverbio",
+      "genero": null,
+      "numero": null,
+      "definicion": "En todo tiempo o en todo caso.",
+      "acepciones": [
+        "En todo tiempo.",
+        "En todo caso.",
+        "Continuamente."
+      ],
+      "etimologia": "De 'siempre', del lat�n 'semper'.",
+      "ejemplo": "Siempre te recuerdo.",
+      "sinonimos": ["eternamente", "perpetuamente", "constantemente", "invariablemente"],
+      "antonimos": ["nunca", "jam�s"],
+      "familia_lexica": ["sempiterno", "siempreviva"],
+      "locuciones": ["para siempre", "siempre que", "siempre jam�s", "por siempre"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "tiempo",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "nunca",
+      "categoria_gramatical": "adverbio",
+      "genero": null,
+      "numero": null,
+      "definicion": "En ning�n tiempo, en ning�n caso.",
+      "acepciones": [
+        "En ning�n tiempo.",
+        "En ning�n caso."
+      ],
+      "etimologia": "Del lat�n 'numquam'.",
+      "ejemplo": "Nunca me rindo.",
+      "sinonimos": ["jam�s", "en ning�n momento", "en ninguna ocasi�n"],
+      "antonimos": ["siempre", "constantemente"],
+      "familia_lexica": [],
+      "locuciones": ["nunca jam�s", "m�s vale tarde que nunca", "nunca se sabe"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "tiempo",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "yo",
+      "categoria_gramatical": "pronombre",
+      "genero": null,
+      "numero": "singular",
+      "definicion": "Forma de primera persona del singular que designa a la persona que habla.",
+      "acepciones": [
+        "Primera persona singular.",
+        "En filosof�a: el yo como sujeto."
+      ],
+      "etimologia": "Del lat�n 'ego'.",
+      "ejemplo": "Yo soy estudiante.",
+      "sinonimos": ["m�", "me", "uno mismo"],
+      "antonimos": ["t�", "�l", "nosotros"],
+      "familia_lexica": ["yo�smo", "yoidad"],
+      "locuciones": ["yo que t�", "yo mismo", "el yo interior"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "gram�tica",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "traducir",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Expresar en una lengua lo que est� escrito o se ha expresado antes en otra.",
+      "acepciones": [
+        "Pasar de una lengua a otra.",
+        "Interpretar o explicar."
+      ],
+      "etimologia": "Del lat�n 'traducere', llevar de un lugar a otro.",
+      "ejemplo": "Voy a traducir este texto al ingl�s.",
+      "sinonimos": ["interpretar", "verter", "trasladar", "convertir"],
+      "antonimos": ["dejar sin traducir"],
+      "familia_lexica": ["traducci�n", "traductor", "traducible", "intraducible"],
+      "locuciones": ["traducir al pie de la letra", "traducir del ingl�s"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ling��stica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "entender",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Tener idea clara de las cosas. Comprender.",
+      "acepciones": [
+        "Comprender algo.",
+        "Conocer a alguien.",
+        "Opinar o creer.",
+        "En tauromaquia: conocer el toro."
+      ],
+      "etimologia": "Del lat�n 'intendere', tender hacia.",
+      "ejemplo": "Quiero entender este problema.",
+      "sinonimos": ["comprender", "captar", "asimilar", "concebir", "penetrar"],
+      "antonimos": ["ignorar", "desconocer", "malinterpretar"],
+      "familia_lexica": ["entendimiento", "entendido", "entendedor", "malentendido"],
+      "locuciones": ["dar a entender", "entenderse con", "a mi entender"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cognici�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "compartir",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Repartir, dividir, distribuir las cosas en partes.",
+      "acepciones": [
+        "Dividir o repartir.",
+        "Participar en algo.",
+        "Usar algo en com�n."
+      ],
+      "etimologia": "Del lat�n 'compartiri'.",
+      "ejemplo": "Vamos a compartir la comida.",
+      "sinonimos": ["repartir", "dividir", "distribuir", "participar", "comulgar"],
+      "antonimos": ["acaparar", "monopolizar", "retener"],
+      "familia_lexica": ["compartimiento", "compartido", "partici�n"],
+      "locuciones": ["compartir piso", "compartir alegr�as", "compartir mesa"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "ayudar",
+      "categoria_gramatical": "verbo",
+      "genero": null,
+      "numero": null,
+      "definicion": "Prestar cooperaci�n, auxiliar, socorrer.",
+      "acepciones": [
+        "Prestar ayuda.",
+        "Contribuir a algo.",
+        "Servir de remedio."
+      ],
+      "etimologia": "Del lat�n 'adiutare'.",
+      "ejemplo": "Voy a ayudar a mi amigo.",
+      "sinonimos": ["auxiliar", "socorrer", "asistir", "contribuir", "apoyar"],
+      "antonimos": ["estorbar", "obstaculizar", "perjudicar"],
+      "familia_lexica": ["ayuda", "ayudante", "ayudant�a", "desamparar"],
+      "locuciones": ["ayudar en casa", "ayudar a bien morir", "dios te ayude"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "respeto",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Miramiento, consideraci�n, deferencia.",
+      "acepciones": [
+        "Consideraci�n hacia alguien.",
+        "Miedo o temor.",
+        "Veneraci�n."
+      ],
+      "etimologia": "Del lat�n 'respectus'.",
+      "ejemplo": "Debemos tener respeto por los dem�s.",
+      "sinonimos": ["consideraci�n", "deferencia", "acatamiento", "veneraci�n"],
+      "antonimos": ["irrespeto", "desprecio", "insolencia"],
+      "familia_lexica": ["respetar", "respetable", "irrespetuoso", "respetuosidad"],
+      "locuciones": ["respeto humano", "con todo respeto", "por respeto a"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "solidaridad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Adhesi�n circunstancial a la causa o a la empresa de otros.",
+      "acepciones": [
+        "Apoyo a una causa.",
+        "Comunidad de intereses.",
+        "En derecho: responsabilidad compartida."
+      ],
+      "etimologia": "Del franc�s 'solidarit�'.",
+      "ejemplo": "Mostramos solidaridad con los afectados.",
+      "sinonimos": ["apoyo", "adhesi�n", "cooperaci�n", "colaboraci�n"],
+      "antonimos": ["ego�smo", "indiferencia", "insolidaridad"],
+      "familia_lexica": ["solidario", "solidarizar", "solidarizarse"],
+      "locuciones": ["solidaridad internacional", "d�a de la solidaridad"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "tolerancia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de tolerar. Respeto a las ideas, creencias o pr�cticas de los dem�s.",
+      "acepciones": [
+        "Respeto a la diferencia.",
+        "Capacidad de soportar.",
+        "En medicina: dosis m�xima."
+      ],
+      "etimologia": "Del lat�n 'tolerantia'.",
+      "ejemplo": "La tolerancia es clave para la convivencia.",
+      "sinonimos": ["respeto", "comprensi�n", "aceptaci�n", "paciencia"],
+      "antonimos": ["intolerancia", "fanatismo", "dogmatismo"],
+      "familia_lexica": ["tolerar", "tolerante", "intolerante", "tolerable"],
+      "locuciones": ["tolerancia cero", "tolerancia religiosa"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "curiosidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Deseo de saber o averiguar alguien lo que no le concierne. Viciosa inclinaci�n.",
+      "acepciones": [
+        "Deseo de saber.",
+        "Cosa curiosa.",
+        "Aseo, limpieza."
+      ],
+      "etimologia": "Del lat�n 'curiositas'.",
+      "ejemplo": "La curiosidad mat� al gato.",
+      "sinonimos": ["inter�s", "indagaci�n", "inquisici�n"],
+      "antonimos": ["indiferencia", "desinter�s", "apat�a"],
+      "familia_lexica": ["curioso", "curiosear", "curios�n"],
+      "locuciones": ["matar la curiosidad", "por curiosidad", "sentir curiosidad"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cognici�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "creatividad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Facultad de crear. Capacidad de generar nuevas ideas o conceptos.",
+      "acepciones": [
+        "Capacidad creadora.",
+        "Ingenio.",
+        "Innovaci�n."
+      ],
+      "etimologia": "Del lat�n 'creare'.",
+      "ejemplo": "La creatividad es importante en el arte.",
+      "sinonimos": ["ingenio", "inventiva", "imaginaci�n", "originalidad"],
+      "antonimos": ["rutina", "estereotipo", "imitaci�n"],
+      "familia_lexica": ["crear", "creativo", "creaci�n", "creador"],
+      "locuciones": ["fomentar la creatividad", "taller de creatividad"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cognici�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "innovaci�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de innovar. Creaci�n o modificaci�n de un producto.",
+      "acepciones": [
+        "Cambio novedoso.",
+        "Introducci�n de novedades."
+      ],
+      "etimologia": "Del lat�n 'innovatio'.",
+      "ejemplo": "La innovaci�n tecnol�gica avanza r�pido.",
+      "sinonimos": ["novedad", "cambio", "reforma", "modernizaci�n"],
+      "antonimos": ["tradici�n", "conservadurismo", "inmovilismo"],
+      "familia_lexica": ["innovar", "innovador", "innovar"],
+      "locuciones": ["innovaci�n educativa", "innovaci�n tecnol�gica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "tecnolog�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de teor�as y de t�cnicas que permiten el aprovechamiento pr�ctico del conocimiento cient�fico.",
+      "acepciones": [
+        "Aplicaci�n de la ciencia.",
+        "Conjunto de instrumentos.",
+        "Lenguaje t�cnico."
+      ],
+      "etimologia": "Del griego 'techne', arte, y 'logos', tratado.",
+      "ejemplo": "La tecnolog�a cambia el mundo.",
+      "sinonimos": ["t�cnica", "ciencia aplicada", "ingenier�a"],
+      "antonimos": ["artesan�a", "primitivismo"],
+      "familia_lexica": ["tecnol�gico", "tecn�logo", "tecnificar"],
+      "locuciones": ["alta tecnolog�a", "nuevas tecnolog�as", "tecnolog�a de la informaci�n"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ciencia",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "informaci�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de informar. Comunicaci�n o adquisici�n de conocimientos.",
+      "acepciones": [
+        "Noticia o dato.",
+        "Conjunto de datos.",
+        "En derecho: informe."
+      ],
+      "etimologia": "Del lat�n 'informatio'.",
+      "ejemplo": "Necesito m�s informaci�n.",
+      "sinonimos": ["noticia", "dato", "aviso", "comunicaci�n", "reporte"],
+      "antonimos": ["desinformaci�n", "silencio"],
+      "familia_lexica": ["informar", "informativo", "informante", "inform�tica"],
+      "locuciones": ["sociedad de la informaci�n", "libertad de informaci�n"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "comunicaci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "comunicaci�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de comunicar o comunicarse. Trato entre dos o m�s personas.",
+      "acepciones": [
+        "Transmisi�n de informaci�n.",
+        "Medios de comunicaci�n.",
+        "En ret�rica: arte de expresar."
+      ],
+      "etimologia": "Del lat�n 'communicatio'.",
+      "ejemplo": "La comunicaci�n es clave en el trabajo.",
+      "sinonimos": ["transmisi�n", "contacto", "di�logo", "intercambio"],
+      "antonimos": ["incomunicaci�n", "aislamiento", "silencio"],
+      "familia_lexica": ["comunicar", "comunicativo", "comunicado", "incomunicar"],
+      "locuciones": ["medios de comunicaci�n", "comunicaci�n no verbal"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "comunicaci�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "sociedad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de personas que se relacionan entre s�, de acuerdo a unas determinadas reglas de organizaci�n.",
+      "acepciones": [
+        "Conjunto de personas.",
+        "Agrupaci�n con fines comunes.",
+        "En derecho: contrato."
+      ],
+      "etimologia": "Del lat�n 'societas'.",
+      "ejemplo": "La sociedad moderna cambia r�pido.",
+      "sinonimos": ["comunidad", "colectividad", "grupo", "pueblo"],
+      "antonimos": ["individuo", "aislamiento", "soledad"],
+      "familia_lexica": ["social", "socializar", "sociable", "asociaci�n"],
+      "locuciones": ["alta sociedad", "sociedad an�nima", "sociedad civil"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "pol�tica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que trata del gobierno y la organizaci�n de las sociedades humanas.",
+      "acepciones": [
+        "Actividad de gobierno.",
+        "Conjunto de orientaciones.",
+        "Arte de gobernar."
+      ],
+      "etimologia": "Del griego 'politik�'.",
+      "ejemplo": "La pol�tica afecta a todos.",
+      "sinonimos": ["gobierno", "administraci�n", "diplomacia"],
+      "antonimos": ["apol�tica", "antipol�tica"],
+      "familia_lexica": ["pol�tico", "politizar", "politiquero", "pol�tica"],
+      "locuciones": ["pol�tica exterior", "pol�tica econ�mica", "buena pol�tica"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "pol�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "econom�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que estudia los m�todos m�s eficaces para satisfacer las necesidades humanas materiales.",
+      "acepciones": [
+        "Ciencia econ�mica.",
+        "Administraci�n de bienes.",
+        "Ahorro de recursos."
+      ],
+      "etimologia": "Del griego 'oikonom�a'.",
+      "ejemplo": "La econom�a global est� en crisis.",
+      "sinonimos": ["finanzas", "hacienda", "patrimonio", "ahorro"],
+      "antonimos": ["derroche", "despilfarro"],
+      "familia_lexica": ["econ�mico", "economista", "economizar", "antiecon�mico"],
+      "locuciones": ["econom�a de mercado", "econom�a sumergida", "econom�a dom�stica"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "econom�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "filosof�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de saberes que busca establecer, de manera racional, los principios m�s generales que organizan y orientan el conocimiento de la realidad.",
+      "acepciones": [
+        "Amor a la sabidur�a.",
+        "Ciencia racional.",
+        "Forma de pensar."
+      ],
+      "etimologia": "Del griego 'philosoph�a'.",
+      "ejemplo": "La filosof�a me ayuda a pensar.",
+      "sinonimos": ["pensamiento", "reflexi�n", "sabidur�a"],
+      "antonimos": ["ignorancia", "dogmatismo"],
+      "familia_lexica": ["fil�sofo", "filosofar", "filos�fico"],
+      "locuciones": ["filosof�a de vida", "filosof�a oriental"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "psicolog�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que estudia los procesos mentales en sus tres dimensiones: cognitiva, afectiva y conductual.",
+      "acepciones": [
+        "Ciencia de la mente.",
+        "Manera de sentir.",
+        "En psicolog�a: estudio del alma."
+      ],
+      "etimologia": "Del griego 'psyche', alma, y 'logos'.",
+      "ejemplo": "La psicolog�a estudia la conducta.",
+      "sinonimos": ["psique", "mente", "conducta"],
+      "antonimos": [],
+      "familia_lexica": ["psic�logo", "psicol�gico", "psiquiatr�a"],
+      "locuciones": ["psicolog�a cl�nica", "psicolog�a social", "psicolog�a evolutiva"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ciencia",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "ling��stica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que estudia el lenguaje humano y las lenguas naturales.",
+      "acepciones": [
+        "Ciencia del lenguaje.",
+        "Estudio de las lenguas."
+      ],
+      "etimologia": "Del franc�s 'linguistique'.",
+      "ejemplo": "Estudio ling��stica en la universidad.",
+      "sinonimos": ["filolog�a", "gram�tica"],
+      "antonimos": [],
+      "familia_lexica": ["ling�ista", "ling��stico", "ling��sticamente"],
+      "locuciones": ["ling��stica aplicada", "ling��stica te�rica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "gram�tica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que estudia los elementos de una lengua y sus combinaciones.",
+      "acepciones": [
+        "Ciencia de la lengua.",
+        "Libro de gram�tica.",
+        "Arte de hablar y escribir."
+      ],
+      "etimologia": "Del lat�n 'grammatica'.",
+      "ejemplo": "La gram�tica del espa�ol es compleja.",
+      "sinonimos": ["sintaxis", "morfolog�a", "ling��stica"],
+      "antonimos": [],
+      "familia_lexica": ["gram�tico", "gramatical", "agramatical"],
+      "locuciones": ["gram�tica generativa", "gram�tica hist�rica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ling��stica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "literatura",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Arte que emplea como medio de expresi�n una lengua.",
+      "acepciones": [
+        "Arte de la palabra.",
+        "Conjunto de obras literarias.",
+        "Bibliograf�a sobre un tema."
+      ],
+      "etimologia": "Del lat�n 'litteratura'.",
+      "ejemplo": "La literatura espa�ola es rica.",
+      "sinonimos": ["letras", "escritura", "poes�a", "narrativa"],
+      "antonimos": [],
+      "familia_lexica": ["literario", "literato", "literal", "literato"],
+      "locuciones": ["literatura universal", "literatura contempor�nea"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "poes�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Manifestaci�n de la belleza o del sentimiento est�tico por medio de la palabra.",
+      "acepciones": [
+        "Arte po�tica.",
+        "Composici�n po�tica.",
+        "Cualidad de lo po�tico."
+      ],
+      "etimologia": "Del griego 'poiesis', creaci�n.",
+      "ejemplo": "La poes�a de Neruda es hermosa.",
+      "sinonimos": ["l�rica", "verso", "poema", "rima"],
+      "antonimos": ["prosa"],
+      "familia_lexica": ["poeta", "po�tico", "poemario", "poetizar"],
+      "locuciones": ["poes�a l�rica", "poes�a �pica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "literatura",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "novela",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Obra literaria en prosa en la que se narra una acci�n fingida en todo o en parte.",
+      "acepciones": [
+        "G�nero narrativo largo.",
+        "Obra de ficci�n.",
+        "Suceso novelesco."
+      ],
+      "etimologia": "Del italiano 'novella'.",
+      "ejemplo": "Estoy leyendo una novela interesante.",
+      "sinonimos": ["relato", "ficci�n", "narraci�n"],
+      "antonimos": ["realidad", "historia"],
+      "familia_lexica": ["novelista", "novelesco", "novelar"],
+      "locuciones": ["novela negra", "novela hist�rica", "novela rosa"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "literatura",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "cuento",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Narraci�n breve de ficci�n.",
+      "acepciones": [
+        "Relato breve.",
+        "Chisme o habladur�a.",
+        "Cuenta o c�lculo."
+      ],
+      "etimologia": "Del lat�n 'computare', contar.",
+      "ejemplo": "Me gustan los cuentos de hadas.",
+      "sinonimos": ["relato", "f�bula", "narraci�n", "conseja"],
+      "antonimos": ["verdad", "realidad"],
+      "familia_lexica": ["contar", "cuentista", "cuentagotas"],
+      "locuciones": ["cuento de hadas", "cuento chino", "vivir del cuento"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "literatura",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "teatro",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Edificio destinado a la representaci�n de obras dram�ticas. G�nero literario.",
+      "acepciones": [
+        "G�nero dram�tico.",
+        "Edificio teatral.",
+        "Conjunto de obras dram�ticas."
+      ],
+      "etimologia": "Del griego 'th�atron'.",
+      "ejemplo": "Vamos al teatro esta noche.",
+      "sinonimos": ["drama", "escenario", "coliseo", "representaci�n"],
+      "antonimos": [],
+      "familia_lexica": ["teatral", "teatralidad", "teatralizar"],
+      "locuciones": ["teatro cl�sico", "teatro de calle", "hacer teatro"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cultura",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "pel�cula",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Obra cinematogr�fica.",
+      "acepciones": [
+        "Obra de cine.",
+        "Cinta fotogr�fica.",
+        "Capa delgada."
+      ],
+      "etimologia": "Diminutivo de 'pella', pelotilla.",
+      "ejemplo": "Vi una pel�cula muy buena.",
+      "sinonimos": ["filme", "cinta", "film", "largometraje"],
+      "antonimos": [],
+      "familia_lexica": ["peliculero"],
+      "locuciones": ["pel�cula de terror", "pel�cula de culto", "hacer una pel�cula"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cultura",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "canci�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Composici�n en verso, que se canta, o hecha a prop�sito para que se pueda poner en m�sica.",
+      "acepciones": [
+        "Composici�n musical con letra.",
+        "Poema l�rico.",
+        "Canto."
+      ],
+      "etimologia": "Del lat�n 'cantio', 'cantionis'.",
+      "ejemplo": "Esa canci�n me encanta.",
+      "sinonimos": ["melod�a", "tonada", "canto", "copla", "balada"],
+      "antonimos": [],
+      "familia_lexica": ["cantar", "cantante", "cantor", "cantata"],
+      "locuciones": ["canci�n de cuna", "canci�n protesta", "pegajosa canci�n"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "baile",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Acci�n o manera de bailar.",
+      "acepciones": [
+        "Arte de danzar.",
+        "Fiesta con m�sica.",
+        "Pieza musical para bailar."
+      ],
+      "etimologia": "De 'bailar'.",
+      "ejemplo": "El baile es una forma de expresi�n.",
+      "sinonimos": ["danza", "coreograf�a", "zapateado"],
+      "antonimos": ["quietud", "inmovilidad"],
+      "familia_lexica": ["bailar", "bailar�n", "bailable", "bailoteo"],
+      "locuciones": ["baile de sal�n", "baile regional", "llevar el baile"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "deporte",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Actividad f�sica, ejercida como juego o competici�n, cuya pr�ctica supone entrenamiento y sujeci�n a normas.",
+      "acepciones": [
+        "Actividad f�sica.",
+        "Recreaci�n.",
+        "Conjunto de disciplinas."
+      ],
+      "etimologia": "Del franc�s antiguo 'desport', recreaci�n.",
+      "ejemplo": "El f�tbol es un deporte popular.",
+      "sinonimos": ["atletismo", "gimnasia", "actividad f�sica", "ejercicio"],
+      "antonimos": ["sedentarismo", "inactividad"],
+      "familia_lexica": ["deportista", "deportivo", "deportividad"],
+      "locuciones": ["deporte de riesgo", "deporte nacional", "hacer deporte"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "deporte",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "salud",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Estado en que el ser org�nico ejerce normalmente todas sus funciones.",
+      "acepciones": [
+        "Estado de bienestar.",
+        "Condiciones f�sicas.",
+        "En saludo: �salud!"
+      ],
+      "etimologia": "Del lat�n 'salus', 'salutis'.",
+      "ejemplo": "La salud es lo m�s importante.",
+      "sinonimos": ["bienestar", "sanidad", "vigor", "robustez"],
+      "antonimos": ["enfermedad", "dolencia", "achaque"],
+      "familia_lexica": ["saludable", "saludar", "saludo", "salutaci�n"],
+      "locuciones": ["salud p�blica", "salud mental", "beber a la salud"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "medicina",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "enfermedad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Alteraci�n m�s o menos grave de la salud.",
+      "acepciones": [
+        "Padecimiento.",
+        "Trastorno funcional.",
+        "Pasi�n da�osa."
+      ],
+      "etimologia": "Del lat�n 'infirmitas'.",
+      "ejemplo": "La enfermedad lo dej� d�bil.",
+      "sinonimos": ["padecimiento", "dolencia", "mal", "afecci�n", "trastorno"],
+      "antonimos": ["salud", "bienestar", "sanidad"],
+      "familia_lexica": ["enfermo", "enfermar", "enfermer�a", "enfermero"],
+      "locuciones": ["enfermedad mental", "enfermedad terminal", "enfermedad contagiosa"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "medicina",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "felicidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Estado del �nimo que se complace en la posesi�n de un bien.",
+      "acepciones": [
+        "Satisfacci�n.",
+        "Contento.",
+        "Buena suerte."
+      ],
+      "etimologia": "Del lat�n 'felicitas'.",
+      "ejemplo": "La felicidad est� en las peque�as cosas.",
+      "sinonimos": ["dicha", "contento", "alegr�a", "bienestar", "gozo"],
+      "antonimos": ["tristeza", "infelicidad", "desdicha", "desgracia"],
+      "familia_lexica": ["feliz", "felicitar", "felicitaci�n", "infeliz"],
+      "locuciones": ["felicidad completa", "derecho a la felicidad"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "emoci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "tristeza",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Cualidad de triste.",
+      "acepciones": [
+        "Sentimiento de melancol�a.",
+        "Estado de �nimo bajo.",
+        "Desgracia."
+      ],
+      "etimologia": "Del lat�n 'tristitia'.",
+      "ejemplo": "La tristeza me invade a veces.",
+      "sinonimos": ["melancol�a", "pesadumbre", "aflicci�n", "pena", "desconsuelo"],
+      "antonimos": ["alegr�a", "felicidad", "contento"],
+      "familia_lexica": ["triste", "entristecer", "trist�n", "tristemente"],
+      "locuciones": ["tristeza profunda", "ahogar las tristezas"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "emoci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "miedo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Perturbaci�n angustiosa del �nimo por un riesgo o da�o real o imaginario.",
+      "acepciones": [
+        "Temor.",
+        "Recelo.",
+        "Pavor."
+      ],
+      "etimologia": "Del lat�n 'metus'.",
+      "ejemplo": "Le tengo miedo a las alturas.",
+      "sinonimos": ["temor", "pavor", "terror", "espanto", "p�nico"],
+      "antonimos": ["valent�a", "coraje", "tranquilidad", "seguridad"],
+      "familia_lexica": ["miedoso", "amedrentar", "atemorizar"],
+      "locuciones": ["miedo esc�nico", "miedo cerval", "sin miedo"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "emoci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "alegr�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Sentimiento grato y vivo que suele manifestarse con signos exteriores.",
+      "acepciones": [
+        "Contento.",
+        "Regocijo.",
+        "Planta ranuncul�cea."
+      ],
+      "etimologia": "De 'alegre'.",
+      "ejemplo": "La alegr�a de vivir es contagiosa.",
+      "sinonimos": ["contento", "regocijo", "j�bilo", "gozo", "dicha"],
+      "antonimos": ["tristeza", "melancol�a", "pena"],
+      "familia_lexica": ["alegre", "alegrar", "alegremente", "alegr�n"],
+      "locuciones": ["alegr�a de vivir", "llorar de alegr�a"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "emoci�n",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "esfuerzo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Empleo en�rgico de la fuerza f�sica contra alg�n impulso o resistencia.",
+      "acepciones": [
+        "Empleo de fuerza.",
+        "Dedicaci�n.",
+        "�nimo o valor."
+      ],
+      "etimologia": "De 'esforzar'.",
+      "ejemplo": "Con esfuerzo se logran las metas.",
+      "sinonimos": ["empe�o", "dedicaci�n", "ah�nco", "tes�n", "af�n"],
+      "antonimos": ["pereza", "abandono", "desidia"],
+      "familia_lexica": ["esforzar", "esforzado", "esforzadamente"],
+      "locuciones": ["sin esfuerzo", "valer el esfuerzo", "premiar el esfuerzo"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "psicolog�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "paciencia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Capacidad de padecer o soportar algo sin alterarse.",
+      "acepciones": [
+        "Aguante.",
+        "Tolerancia.",
+        "Tardanza."
+      ],
+      "etimologia": "Del lat�n 'patientia'.",
+      "ejemplo": "Ten paciencia, todo llegar�.",
+      "sinonimos": ["aguante", "tolerancia", "resignaci�n", "templanza"],
+      "antonimos": ["impaciencia", "intolerancia", "desesperaci�n"],
+      "familia_lexica": ["paciente", "impaciente", "pacientemente", "impacientar"],
+      "locuciones": ["armarse de paciencia", "paciencia de santo", "se me acab� la paciencia"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "valent�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Esfuerzo, aliento, vigor para acometer una acci�n.",
+      "acepciones": [
+        "Valor.",
+        "Arrojo.",
+        "Acto valiente."
+      ],
+      "etimologia": "De 'valiente'.",
+      "ejemplo": "Su valent�a es admirable.",
+      "sinonimos": ["valor", "coraje", "arrojo", "bravura", "audacia"],
+      "antonimos": ["cobard�a", "miedo", "pusilanimidad"],
+      "familia_lexica": ["valiente", "valeroso", "valientemente"],
+      "locuciones": ["acto de valent�a", "probar la valent�a"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "sabidur�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Grado m�s alto del conocimiento. Conducta prudente en la vida.",
+      "acepciones": [
+        "Conocimiento profundo.",
+        "Prudencia.",
+        "Ciencia."
+      ],
+      "etimologia": "De 'sabio'.",
+      "ejemplo": "La sabidur�a viene con los a�os.",
+      "sinonimos": ["conocimiento", "erudici�n", "prudencia", "cordura"],
+      "antonimos": ["ignorancia", "necedad", "imprudencia"],
+      "familia_lexica": ["sabio", "saber", "sapiencia", "sabihondo"],
+      "locuciones": ["diente de la sabidur�a", "libro de la sabidur�a"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "epistemolog�a",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "coraje",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Valor, esfuerzo, br�o, decisi�n con que se acomete una acci�n.",
+      "acepciones": [
+        "Valent�a.",
+        "Ira.",
+        "Esfuerzo."
+      ],
+      "etimologia": "Del franc�s 'courage'.",
+      "ejemplo": "Tuvo el coraje de decir la verdad.",
+      "sinonimos": ["valent�a", "valor", "arrojo", "audacia", "bravura"],
+      "antonimos": ["cobard�a", "miedo", "timidez"],
+      "familia_lexica": ["corajudo", "corajoso", "encorajar"],
+      "locuciones": ["dar coraje", "coraje c�vico"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "humildad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Virtud que consiste en el conocimiento de las propias limitaciones y debilidades.",
+      "acepciones": [
+        "Sencillez.",
+        "Modestia.",
+        "Bajeza."
+      ],
+      "etimologia": "Del lat�n 'humilitas'.",
+      "ejemplo": "Su humildad lo hace admirable.",
+      "sinonimos": ["modestia", "sencillez", "sumisi�n", "mansedumbre"],
+      "antonimos": ["soberbia", "arrogancia", "vanidad", "altivez"],
+      "familia_lexica": ["humilde", "humillar", "humillaci�n", "humildemente"],
+      "locuciones": ["falsa humildad", "humildad cristiana"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "generosidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Inclinaci�n a dar y compartir por encima de lo exigido por la justicia.",
+      "acepciones": [
+        "Desprendimiento.",
+        "Nobleza.",
+        "Magnanimidad."
+      ],
+      "etimologia": "Del lat�n 'generositas'.",
+      "ejemplo": "Su generosidad no tiene l�mites.",
+      "sinonimos": ["desprendimiento", "nobleza", "magnanimidad", "liberalidad"],
+      "antonimos": ["ego�smo", "avaricia", "taca�er�a", "mezquindad"],
+      "familia_lexica": ["generoso", "generosamente"],
+      "locuciones": ["generosidad de esp�ritu"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "responsabilidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Capacidad existente en todo sujeto activo de derecho para reconocer y aceptar las consecuencias de un hecho realizado libremente.",
+      "acepciones": [
+        "Obligaci�n de responder.",
+        "Cargo u obligaci�n.",
+        "En derecho: deuda."
+      ],
+      "etimologia": "De 'responsable'.",
+      "ejemplo": "Asumo la responsabilidad de mis actos.",
+      "sinonimos": ["obligaci�n", "compromiso", "deber", "carga"],
+      "antonimos": ["irresponsabilidad", "descuido", "negligencia"],
+      "familia_lexica": ["responsable", "responsabilizar", "irresponsable"],
+      "locuciones": ["responsabilidad social", "responsabilidad civil"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "compromiso",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Obligaci�n contra�da por medio de acuerdo, promesa o contrato.",
+      "acepciones": [
+        "Obligaci�n.",
+        "Promesa.",
+        "Dificultad."
+      ],
+      "etimologia": "De 'comprometer'.",
+      "ejemplo": "Tengo un compromiso familiar.",
+      "sinonimos": ["obligaci�n", "acuerdo", "promesa", "pacto", "convenio"],
+      "antonimos": ["descompromiso", "liberaci�n"],
+      "familia_lexica": ["comprometer", "comprometido", "comprometedor"],
+      "locuciones": ["compromiso social", "sin compromiso", "adquirir un compromiso"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "�tica",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "cooperaci�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de cooperar.",
+      "acepciones": [
+        "Ayuda mutua.",
+        "Colaboraci�n.",
+        "En econom�a: sistema."
+      ],
+      "etimologia": "Del lat�n 'cooperatio'.",
+      "ejemplo": "La cooperaci�n entre pa�ses es vital.",
+      "sinonimos": ["colaboraci�n", "ayuda", "asistencia", "participaci�n"],
+      "antonimos": ["competencia", "rivalidad", "oposici�n"],
+      "familia_lexica": ["cooperar", "cooperativo", "cooperante", "cooperativismo"],
+      "locuciones": ["cooperaci�n internacional", "cooperaci�n al desarrollo"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "libertad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Facultad natural que tiene el hombre de obrar de una manera o de otra.",
+      "acepciones": [
+        "Facultad de obrar.",
+        "Independencia.",
+        "Falta de sujeci�n."
+      ],
+      "etimologia": "Del lat�n 'libertas'.",
+      "ejemplo": "La libertad es un derecho fundamental.",
+      "sinonimos": ["independencia", "autonom�a", "soberan�a"],
+      "antonimos": ["esclavitud", "opresi�n", "cautiverio"],
+      "familia_lexica": ["libre", "liberar", "libertario", "liberal"],
+      "locuciones": ["libertad de expresi�n", "libertad condicional"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "derecho",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "igualdad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conformidad, coincidencia o exacta proporci�n de una cosa con otra.",
+      "acepciones": [
+        "Equivalencia.",
+        "Uniformidad.",
+        "En matem�ticas: relaci�n."
+      ],
+      "etimologia": "Del lat�n 'aequalitas'.",
+      "ejemplo": "Luchamos por la igualdad de derechos.",
+      "sinonimos": ["equidad", "equivalencia", "paridad", "uniformidad"],
+      "antonimos": ["desigualdad", "diferencia", "discriminaci�n"],
+      "familia_lexica": ["igual", "igualar", "igualitario", "desigual"],
+      "locuciones": ["igualdad de g�nero", "igualdad ante la ley"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "derecho",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "diversidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Variedad, desemejanza, diferencia.",
+      "acepciones": [
+        "Variedad.",
+        "Diferencia.",
+        "En biolog�a: variedad de especies."
+      ],
+      "etimologia": "Del lat�n 'diversitas'.",
+      "ejemplo": "La diversidad cultural enriquece.",
+      "sinonimos": ["variedad", "multiplicidad", "heterogeneidad", "pluralidad"],
+      "antonimos": ["uniformidad", "homogeneidad", "monoton�a"],
+      "familia_lexica": ["diverso", "diversificar", "diversificaci�n"],
+      "locuciones": ["diversidad cultural", "diversidad biol�gica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "sociedad",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "di�logo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Pl�tica entre dos o m�s personas, que alternativamente manifiestan sus ideas o afectos.",
+      "acepciones": [
+        "Conversaci�n.",
+        "Obra literaria dialogada.",
+        "Negociaci�n."
+      ],
+      "etimologia": "Del lat�n 'dialogus'.",
+      "ejemplo": "El di�logo es clave para resolver conflictos.",
+      "sinonimos": ["conversaci�n", "coloquio", "pl�tica", "charla"],
+      "antonimos": ["mon�logo", "silencio", "incomunicaci�n"],
+      "familia_lexica": ["dialogar", "dialogante", "dialogal"],
+      "locuciones": ["di�logo social", "di�logo interreligioso"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "comunicaci�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "creatividad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Facultad de crear. Capacidad de generar nuevas ideas.",
+      "acepciones": [
+        "Capacidad creadora.",
+        "Ingenio.",
+        "Innovaci�n."
+      ],
+      "etimologia": "Del lat�n 'creare'.",
+      "ejemplo": "La creatividad es clave en el arte.",
+      "sinonimos": ["ingenio", "inventiva", "originalidad"],
+      "antonimos": ["rutina", "imitaci�n"],
+      "familia_lexica": ["crear", "creativo", "creaci�n", "creador"],
+      "locuciones": ["taller de creatividad", "fomentar la creatividad"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cognici�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "curiosidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Deseo de saber o averiguar lo que no le concierne a uno.",
+      "acepciones": [
+        "Deseo de saber.",
+        "Cosa curiosa.",
+        "Aseo."
+      ],
+      "etimologia": "Del lat�n 'curiositas'.",
+      "ejemplo": "La curiosidad mat� al gato.",
+      "sinonimos": ["inter�s", "indagaci�n"],
+      "antonimos": ["indiferencia", "desinter�s"],
+      "familia_lexica": ["curioso", "curiosear", "curios�n"],
+      "locuciones": ["matar la curiosidad", "por curiosidad"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cognici�n",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "sue�o",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Acto de dormir. Imagen o sucesos que se representan en la fantas�a.",
+      "acepciones": [
+        "Estado de dormir.",
+        "Im�genes on�ricas.",
+        "Deseo o proyecto."
+      ],
+      "etimologia": "Del lat�n 'somnus'.",
+      "ejemplo": "Tuve un sue�o raro.",
+      "sinonimos": ["ensue�o", "fantas�a", "ilusi�n", "aspiraci�n"],
+      "antonimos": ["vigilia", "realidad"],
+      "familia_lexica": ["so�ar", "so�ador", "somnoliento", "insomnio"],
+      "locuciones": ["sue�o dorado", "ni en sue�os"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "psicolog�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "realidad",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Existencia real y efectiva de algo.",
+      "acepciones": [
+        "Existencia real.",
+        "Conjunto de cosas reales.",
+        "En filosof�a: lo que es."
+      ],
+      "etimologia": "Del lat�n medieval 'realitas'.",
+      "ejemplo": "La realidad supera la ficci�n.",
+      "sinonimos": ["existencia", "verdad", "hecho", "certeza"],
+      "antonimos": ["ficci�n", "ilusi�n", "apariencia", "fantas�a"],
+      "familia_lexica": ["real", "realizar", "realista", "irreal"],
+      "locuciones": ["realidad virtual", "en realidad"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "filosof�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "ficci�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n y efecto de fingir. Cosa fingida.",
+      "acepciones": [
+        "Invenci�n.",
+        "Literatura imaginaria.",
+        "En derecho: simulaci�n."
+      ],
+      "etimologia": "Del lat�n 'fictio'.",
+      "ejemplo": "La ciencia ficci�n me fascina.",
+      "sinonimos": ["invenci�n", "fantas�a", "imaginaci�n", "simulaci�n"],
+      "antonimos": ["realidad", "verdad", "hecho"],
+      "familia_lexica": ["ficticio", "fingir", "ficcional"],
+      "locuciones": ["ciencia ficci�n", "obra de ficci�n"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "literatura",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "mito",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Narraci�n maravillosa situada fuera del tiempo hist�rico.",
+      "acepciones": [
+        "Relato sagrado.",
+        "Persona o cosa mitificada.",
+        "Utop�a."
+      ],
+      "etimologia": "Del griego 'mythos'.",
+      "ejemplo": "El mito de la caverna de Plat�n.",
+      "sinonimos": ["leyenda", "f�bula", "relato"],
+      "antonimos": ["realidad", "historia"],
+      "familia_lexica": ["mitolog�a", "m�tico", "mitificar", "mit�mano"],
+      "locuciones": ["mito fundacional", "convertirse en mito"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cultura",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "filosof�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de saberes que busca establecer los principios de la realidad.",
+      "acepciones": [
+        "Amor a la sabidur�a.",
+        "Ciencia racional.",
+        "Forma de pensar."
+      ],
+      "etimologia": "Del griego 'philosoph�a'.",
+      "ejemplo": "La filosof�a me ayuda a pensar.",
+      "sinonimos": ["pensamiento", "reflexi�n", "sabidur�a"],
+      "antonimos": ["ignorancia"],
+      "familia_lexica": ["fil�sofo", "filosofar", "filos�fico"],
+      "locuciones": ["filosof�a de vida", "filosof�a oriental"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "�tica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Parte de la filosof�a que trata de la moral y de las obligaciones del hombre.",
+      "acepciones": [
+        "Moral.",
+        "Conjunto de normas.",
+        "Disciplina filos�fica."
+      ],
+      "etimologia": "Del griego 'ethik�'.",
+      "ejemplo": "La �tica profesional es importante.",
+      "sinonimos": ["moral", "moralidad", "conducta"],
+      "antonimos": ["inmoralidad", "corrupci�n"],
+      "familia_lexica": ["�tico", "eticidad", "amoral"],
+      "locuciones": ["�tica profesional", "�tica m�dica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "est�tica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que trata de la belleza y de la teor�a fundamental y filos�fica del arte.",
+      "acepciones": [
+        "Ciencia de la belleza.",
+        "Armon�a.",
+        "Apariencia."
+      ],
+      "etimologia": "Del griego 'aisthetik�'.",
+      "ejemplo": "La est�tica del cuadro es �nica.",
+      "sinonimos": ["belleza", "armon�a", "elegancia"],
+      "antonimos": ["fealdad", "tosquedad"],
+      "familia_lexica": ["est�tico", "esteta", "esteticismo"],
+      "locuciones": ["est�tica moderna", "cirug�a est�tica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "l�gica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que expone las leyes, modos y formas del conocimiento cient�fico.",
+      "acepciones": [
+        "Ciencia del razonamiento.",
+        "Manera de razonar.",
+        "Sentido com�n."
+      ],
+      "etimologia": "Del griego 'logik�'.",
+      "ejemplo": "Tu argumento carece de l�gica.",
+      "sinonimos": ["razonamiento", "coherencia", "sentido"],
+      "antonimos": ["ilogicidad", "irracionalidad"],
+      "familia_lexica": ["l�gico", "ilogico", "logica"],
+      "locuciones": ["l�gica formal", "l�gica matem�tica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "humanidades",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "matem�ticas",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "plural",
+      "definicion": "Ciencia deductiva que estudia las propiedades de los entes abstractos.",
+      "acepciones": [
+        "Ciencia de los n�meros.",
+        "C�lculo.",
+        "Asignatura escolar."
+      ],
+      "etimologia": "Del griego 'mathematik�'.",
+      "ejemplo": "Las matem�ticas son fundamentales.",
+      "sinonimos": ["c�lculo", "aritm�tica", "�lgebra"],
+      "antonimos": [],
+      "familia_lexica": ["matem�tico", "matematizar"],
+      "locuciones": ["matem�ticas aplicadas", "matem�ticas puras"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ciencia",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "f�sica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que estudia las propiedades de la materia y de la energ�a.",
+      "acepciones": [
+        "Ciencia natural.",
+        "Complexi�n.",
+        "Aspecto exterior."
+      ],
+      "etimologia": "Del griego 'physik�'.",
+      "ejemplo": "La f�sica explica el universo.",
+      "sinonimos": ["mec�nica", "din�mica", "ciencia natural"],
+      "antonimos": [],
+      "familia_lexica": ["f�sico", "f�sicamente"],
+      "locuciones": ["f�sica cu�ntica", "f�sica nuclear"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ciencia",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "qu�mica",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que estudia la estructura, propiedades y transformaciones de la materia.",
+      "acepciones": [
+        "Ciencia de la materia.",
+        "Sustancia.",
+        "Afinidad."
+      ],
+      "etimologia": "Del �rabe 'al-kimiya'.",
+      "ejemplo": "La qu�mica estudia las reacciones.",
+      "sinonimos": ["ciencia qu�mica"],
+      "antonimos": [],
+      "familia_lexica": ["qu�mico", "qu�micamente"],
+      "locuciones": ["qu�mica org�nica", "qu�mica inorg�nica"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ciencia",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "biolog�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia que trata de los seres vivos.",
+      "acepciones": [
+        "Ciencia de la vida.",
+        "Estudio de organismos."
+      ],
+      "etimologia": "Del griego 'bios', vida, y 'logos'.",
+      "ejemplo": "La biolog�a estudia la vida.",
+      "sinonimos": ["ciencia biol�gica"],
+      "antonimos": [],
+      "familia_lexica": ["biol�gico", "bi�logo", "biologismo"],
+      "locuciones": ["biolog�a molecular", "biolog�a marina"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ciencia",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "medicina",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Ciencia y arte de precaver y curar las enfermedades del cuerpo humano.",
+      "acepciones": [
+        "Ciencia m�dica.",
+        "Medicamento.",
+        "Ejercicio de la medicina."
+      ],
+      "etimologia": "Del lat�n 'medicina'.",
+      "ejemplo": "La medicina salva vidas.",
+      "sinonimos": ["ciencia m�dica", "medicamento", "f�rmaco"],
+      "antonimos": [],
+      "familia_lexica": ["m�dico", "medicinal", "medicaci�n", "medicamento"],
+      "locuciones": ["medicina general", "medicina alternativa"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "ciencia",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "arte",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Actividad humana que tiene como fin la creaci�n de obras bellas.",
+      "acepciones": [
+        "Manifestaci�n creativa.",
+        "Conjunto de obras.",
+        "Habilidad."
+      ],
+      "etimologia": "Del lat�n 'ars', 'artis'.",
+      "ejemplo": "El arte refleja la sociedad.",
+      "sinonimos": ["creaci�n", "obra", "expresi�n"],
+      "antonimos": ["tosquedad", "naturaleza"],
+      "familia_lexica": ["artista", "art�stico", "artesano", "artificial"],
+      "locuciones": ["arte abstracto", "obra de arte"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "cultura",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "pintura",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Arte de pintar. Obra pintada.",
+      "acepciones": [
+        "Arte pict�rico.",
+        "Obra de arte.",
+        "Sustancia colorante."
+      ],
+      "etimologia": "De 'pintar'.",
+      "ejemplo": "La pintura de Vel�zquez es magistral.",
+      "sinonimos": ["cuadro", "lienzo", "�leo", "pict�rica"],
+      "antonimos": [],
+      "familia_lexica": ["pintar", "pintor", "pintoresco", "pintura"],
+      "locuciones": ["pintura al �leo", "pintura rupestre"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "escultura",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Arte de modelar, tallar o esculpir figuras.",
+      "acepciones": [
+        "Arte escult�rico.",
+        "Obra esculpida."
+      ],
+      "etimologia": "Del lat�n 'sculptura'.",
+      "ejemplo": "La escultura griega es cl�sica.",
+      "sinonimos": ["talla", "estatua", "figura"],
+      "antonimos": [],
+      "familia_lexica": ["esculpir", "escultor", "escult�rico"],
+      "locuciones": ["escultura moderna", "escultura en bronce"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "arquitectura",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Arte de proyectar y construir edificios.",
+      "acepciones": [
+        "Arte de construir.",
+        "Estructura.",
+        "Estilo constructivo."
+      ],
+      "etimologia": "Del lat�n 'architectura'.",
+      "ejemplo": "La arquitectura g�tica es impresionante.",
+      "sinonimos": ["construcci�n", "edificaci�n"],
+      "antonimos": [],
+      "familia_lexica": ["arquitecto", "arquitect�nico"],
+      "locuciones": ["arquitectura moderna", "arquitectura sostenible"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "fotograf�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Arte y t�cnica de obtener im�genes sobre una superficie fotosensible.",
+      "acepciones": [
+        "Arte fotogr�fico.",
+        "Imagen captada.",
+        "Estudio fotogr�fico."
+      ],
+      "etimologia": "Del griego 'phos', luz, y 'graph�', escritura.",
+      "ejemplo": "La fotograf�a captura momentos.",
+      "sinonimos": ["imagen", "foto", "retrato"],
+      "antonimos": [],
+      "familia_lexica": ["fot�grafo", "fotogr�fico", "fotografiar"],
+      "locuciones": ["fotograf�a digital", "fotograf�a art�stica"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "danza",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Arte de bailar. Conjunto de movimientos r�tmicos.",
+      "acepciones": [
+        "Arte de bailar.",
+        "Baile.",
+        "M�sica para bailar."
+      ],
+      "etimologia": "Del franc�s 'danse'.",
+      "ejemplo": "La danza contempor�nea me gusta.",
+      "sinonimos": ["baile", "coreograf�a", "ballet"],
+      "antonimos": ["quietud", "inmovilidad"],
+      "familia_lexica": ["danzar", "danzante", "danzar�n"],
+      "locuciones": ["danza cl�sica", "danza folcl�rica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "cine",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "T�cnica, arte e industria de la cinematograf�a.",
+      "acepciones": [
+        "S�ptimo arte.",
+        "Sala de proyecci�n.",
+        "Industria cinematogr�fica."
+      ],
+      "etimologia": "Ap�cope de 'cinemat�grafo'.",
+      "ejemplo": "El cine es un arte completo.",
+      "sinonimos": ["cinematograf�a", "pel�cula", "film"],
+      "antonimos": [],
+      "familia_lexica": ["cinematogr�fico", "cin�filo", "cinemat�grafo"],
+      "locuciones": ["cine mudo", "cine de autor"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "arte",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "�rgano",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Parte del cuerpo de un animal o vegetal que ejerce una funci�n.",
+      "acepciones": [
+        "Parte del cuerpo.",
+        "Instrumento musical.",
+        "Publicaci�n oficial.",
+        "Medio de comunicaci�n."
+      ],
+      "etimologia": "Del lat�n 'organum'.",
+      "ejemplo": "El coraz�n es un �rgano vital.",
+      "sinonimos": ["miembro", "parte", "instrumento"],
+      "antonimos": [],
+      "familia_lexica": ["org�nico", "organismo", "organizar"],
+      "locuciones": ["�rgano vital", "�rgano de gobierno"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "biolog�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "c�lula",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Unidad morfol�gica y funcional de todo ser vivo.",
+      "acepciones": [
+        "Unidad de vida.",
+        "C�lula de prisi�n.",
+        "En pol�tica: grupo."
+      ],
+      "etimologia": "Del lat�n 'cellula', celdilla.",
+      "ejemplo": "La c�lula es la base de la vida.",
+      "sinonimos": ["unidad", "elemento"],
+      "antonimos": [],
+      "familia_lexica": ["celular", "celulosa"],
+      "locuciones": ["c�lula madre", "c�lula fotovoltaica"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "biolog�a",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "�tomo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Part�cula m�s peque�a de un elemento qu�mico que conserva sus propiedades.",
+      "acepciones": [
+        "Part�cula elemental.",
+        "Parte muy peque�a."
+      ],
+      "etimologia": "Del griego '�tomos', sin divisi�n.",
+      "ejemplo": "El �tomo tiene un n�cleo.",
+      "sinonimos": ["part�cula", "mol�cula"],
+      "antonimos": [],
+      "familia_lexica": ["at�mico", "atomizar"],
+      "locuciones": ["�tomo de carbono", "energ�a at�mica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "f�sica",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "galaxia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Conjunto de estrellas, nebulosas y materia interestelar.",
+      "acepciones": [
+        "Sistema estelar.",
+        "V�a L�ctea."
+      ],
+      "etimologia": "Del griego 'galax�as', leche.",
+      "ejemplo": "La V�a L�ctea es una galaxia.",
+      "sinonimos": ["sistema estelar", "nebulosa"],
+      "antonimos": [],
+      "familia_lexica": ["gal�ctico"],
+      "locuciones": ["galaxia espiral", "galaxia enana"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "avanzado"
+    },
+    {
+      "lema": "universo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Conjunto de todas las cosas creadas. Totalidad de lo existente.",
+      "acepciones": [
+        "Cosmos.",
+        "Totalidad.",
+        "�mbito espec�fico."
+      ],
+      "etimologia": "Del lat�n 'universum'.",
+      "ejemplo": "El universo es infinito.",
+      "sinonimos": ["cosmos", "creaci�n", "mundo"],
+      "antonimos": ["nada", "vac�o"],
+      "familia_lexica": ["universal", "universalidad"],
+      "locuciones": ["universo paralelo", "universo observable"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "planeta",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Cuerpo celeste que gira alrededor de una estrella.",
+      "acepciones": [
+        "Astro que orbita.",
+        "Tierra."
+      ],
+      "etimologia": "Del griego 'plan�tes', errante.",
+      "ejemplo": "Marte es el planeta rojo.",
+      "sinonimos": ["astro", "mundo"],
+      "antonimos": [],
+      "familia_lexica": ["planetario", "planetario"],
+      "locuciones": ["planeta Tierra", "planeta enano"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "estrella",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Cuerpo celeste que brilla con luz propia.",
+      "acepciones": [
+        "Astro luminoso.",
+        "Persona destacada.",
+        "Figura de adorno."
+      ],
+      "etimologia": "Del lat�n 'stella'.",
+      "ejemplo": "El Sol es una estrella.",
+      "sinonimos": ["astro", "luminaria", "sol"],
+      "antonimos": [],
+      "familia_lexica": ["estelar", "estrellar", "estrellado"],
+      "locuciones": ["estrella fugaz", "estrella de mar"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "cometa",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Astro generalmente formado por un n�cleo poco denso y una atm�sfera luminosa.",
+      "acepciones": [
+        "Astro con cola.",
+        "Juguete."
+      ],
+      "etimologia": "Del griego 'kom�tes', cabelludo.",
+      "ejemplo": "El cometa Halley pasa cada 76 a�os.",
+      "sinonimos": ["astro", "meteoro"],
+      "antonimos": [],
+      "familia_lexica": ["cometario"],
+      "locuciones": ["cometa Halley", "cometa fugaz"],
+      "nivel": "formal",
+      "frecuencia": "baja",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "meteoro",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Fen�meno atmosf�rico. Cuerpo celeste que se desintegra al entrar en la atm�sfera.",
+      "acepciones": [
+        "Fen�meno atmosf�rico.",
+        "Fragmento c�smico."
+      ],
+      "etimologia": "Del griego 'met�oron', elevado.",
+      "ejemplo": "Vi un meteoro en el cielo.",
+      "sinonimos": ["meteorito", "aerolito"],
+      "antonimos": [],
+      "familia_lexica": ["mete�rico", "meteorito", "meteorolog�a"],
+      "locuciones": ["lluvia de meteoros", "meteoro luminoso"],
+      "nivel": "formal",
+      "frecuencia": "baja",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "oc�ano",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Gran masa de agua salada que cubre la mayor parte de la Tierra.",
+      "acepciones": [
+        "Gran masa de agua.",
+        "Inmensidad."
+      ],
+      "etimologia": "Del griego 'Okean�s'.",
+      "ejemplo": "El oc�ano Pac�fico es el m�s grande.",
+      "sinonimos": ["mar", "pi�lago"],
+      "antonimos": ["continente", "tierra"],
+      "familia_lexica": ["oce�nico", "oceanograf�a"],
+      "locuciones": ["oc�ano Atl�ntico", "oc�ano �ndico"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "continente",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Cada una de las grandes extensiones de tierra separadas por los oc�anos.",
+      "acepciones": [
+        "Gran extensi�n de tierra.",
+        "Recipiente."
+      ],
+      "etimologia": "Del lat�n 'continens'.",
+      "ejemplo": "�frica es un continente.",
+      "sinonimos": ["masa continental", "tierra firme"],
+      "antonimos": ["oc�ano", "isla"],
+      "familia_lexica": ["continental", "contingente"],
+      "locuciones": ["continente americano", "viejo continente"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "isla",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Porci�n de tierra rodeada de agua por todas partes.",
+      "acepciones": [
+        "Tierra rodeada de agua.",
+        "Manzana de casas."
+      ],
+      "etimologia": "Del lat�n 'insula'.",
+      "ejemplo": "Mallorca es una isla.",
+      "sinonimos": ["�nsula", "islote", "pe��n"],
+      "antonimos": ["continente", "tierra firme"],
+      "familia_lexica": ["isle�o", "islote", "insular"],
+      "locuciones": ["isla desierta", "isla tropical"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "pen�nsula",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Tierra cercada de agua por todas partes menos por una.",
+      "acepciones": [
+        "Tierra casi rodeada de agua."
+      ],
+      "etimologia": "Del lat�n 'paeninsula'.",
+      "ejemplo": "La pen�nsula ib�rica est� en Europa.",
+      "sinonimos": ["promontorio"],
+      "antonimos": ["isla", "continente"],
+      "familia_lexica": ["peninsular"],
+      "locuciones": ["pen�nsula de Yucat�n", "pen�nsula it�lica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "golfo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Gran porci�n de mar que se interna en la tierra.",
+      "acepciones": [
+        "Entrada de mar.",
+        "En M�xico: sinverg�enza."
+      ],
+      "etimologia": "Del griego 'k�lpos'.",
+      "ejemplo": "El golfo de M�xico es enorme.",
+      "sinonimos": ["bah�a", "ensenada"],
+      "antonimos": ["cabo", "pen�nsula"],
+      "familia_lexica": ["golfear", "golfo"],
+      "locuciones": ["golfo P�rsico", "golfo de Bengala"],
+      "nivel": "formal",
+      "frecuencia": "baja",
+      "marcas": [],
+      "variantes_regionales": [
+        {"pais": "M�xico", "forma": "holgaz�n"}
+      ],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "bah�a",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Entrada de mar en la costa, de extensi�n considerable.",
+      "acepciones": [
+        "Ensenada amplia."
+      ],
+      "etimologia": "De origen incierto.",
+      "ejemplo": "La bah�a de C�diz es hermosa.",
+      "sinonimos": ["golfo", "ensenada", "rada"],
+      "antonimos": ["cabo", "promontorio"],
+      "familia_lexica": [],
+      "locuciones": ["bah�a natural", "bah�a artificial"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "cordillera",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Serie de monta�as enlazadas entre s�.",
+      "acepciones": [
+        "Conjunto de monta�as."
+      ],
+      "etimologia": "Del lat�n 'chordillera'.",
+      "ejemplo": "Los Andes son una cordillera.",
+      "sinonimos": ["sierra", "macizo", "sistema monta�oso"],
+      "antonimos": ["valle", "llanura"],
+      "familia_lexica": ["cordillerano"],
+      "locuciones": ["cordillera de los Andes", "cordillera Cant�brica"],
+      "nivel": "formal",
+      "frecuencia": "media",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "intermedio"
+    },
+    {
+      "lema": "volc�n",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Monta�a por donde sale lava, cenizas y gases del interior de la Tierra.",
+      "acepciones": [
+        "Monta�a con cr�ter.",
+        "Persona muy fogosa."
+      ],
+      "etimologia": "Del lat�n 'Vulcanus'.",
+      "ejemplo": "El volc�n hizo erupci�n.",
+      "sinonimos": ["cr�ter", "monta�a de fuego"],
+      "antonimos": [],
+      "familia_lexica": ["volc�nico", "vulcanolog�a"],
+      "locuciones": ["volc�n activo", "volc�n extinto"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "desierto",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Regi�n �rida o est�ril, con escasa precipitaci�n y vegetaci�n.",
+      "acepciones": [
+        "Regi�n �rida.",
+        "Lugar solitario."
+      ],
+      "etimologia": "Del lat�n 'desertum'.",
+      "ejemplo": "El Sahara es el mayor desierto c�lido.",
+      "sinonimos": ["p�ramo", "yermo", "erial"],
+      "antonimos": ["oasis", "jungla", "selva"],
+      "familia_lexica": ["des�rtico", "desertizar"],
+      "locuciones": ["desierto del Sahara", "predicar en el desierto"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "selva",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Terreno extenso, inculto y muy poblado de �rboles.",
+      "acepciones": [
+        "Bosque tropical.",
+        "Lugar confuso."
+      ],
+      "etimologia": "Del lat�n 'silva'.",
+      "ejemplo": "La selva amaz�nica es la mayor del mundo.",
+      "sinonimos": ["jungla", "bosque", "floresta"],
+      "antonimos": ["desierto", "pampa", "llanura"],
+      "familia_lexica": ["selv�tico", "selvoso"],
+      "locuciones": ["selva tropical", "ley de la selva"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "geograf�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "bosque",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Sitio poblado de �rboles y matas.",
+      "acepciones": [
+        "Conjunto de �rboles.",
+        "Abundancia de cosas."
+      ],
+      "etimologia": "Del lat�n 'boscus'.",
+      "ejemplo": "Me gusta caminar por el bosque.",
+      "sinonimos": ["arboleda", "floresta", "espesura"],
+      "antonimos": ["desierto", "llanura", "pampa"],
+      "familia_lexica": ["boscoso", "bosquejo"],
+      "locuciones": ["bosque tropical", "bosque de pinos"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "r�o",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Corriente de agua continua y m�s o menos caudalosa que va a desembocar en otra.",
+      "acepciones": [
+        "Corriente de agua.",
+        "Abundancia de algo."
+      ],
+      "etimologia": "Del lat�n 'rivus'.",
+      "ejemplo": "El r�o Nilo es el m�s largo.",
+      "sinonimos": ["riachuelo", "caudal", "torrente"],
+      "antonimos": ["desierto", "sequ�a"],
+      "familia_lexica": ["ribera", "riacho", "ribere�o"],
+      "locuciones": ["r�o arriba", "r�o abajo", "pescar en r�o revuelto"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "lago",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Gran masa permanente de agua depositada en depresiones del terreno.",
+      "acepciones": [
+        "Masa de agua dulce.",
+        "Acumulaci�n."
+      ],
+      "etimologia": "Del lat�n 'lacus'.",
+      "ejemplo": "El lago Titicaca est� en Per� y Bolivia.",
+      "sinonimos": ["laguna", "estanque", "charca"],
+      "antonimos": ["desierto", "tierra"],
+      "familia_lexica": ["laguna", "lagunilla", "lacustre"],
+      "locuciones": ["lago glaciar", "lago salado"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "cielo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "B�veda celeste. Espacio que rodea la Tierra.",
+      "acepciones": [
+        "Espacio sideral.",
+        "En religi�n: morada de Dios.",
+        "Parte superior de algo."
+      ],
+      "etimologia": "Del lat�n 'caelum'.",
+      "ejemplo": "El cielo est� despejado hoy.",
+      "sinonimos": ["firmamento", "b�veda celeste", "para�so"],
+      "antonimos": ["infierno", "tierra"],
+      "familia_lexica": ["celeste", "celestial", "cielito"],
+      "locuciones": ["a cielo abierto", "bajar del cielo", "llover a cielo abierto"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "tierra",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Planeta que habitamos. Superficie del suelo.",
+      "acepciones": [
+        "Planeta Tierra.",
+        "Suelo.",
+        "Territorio.",
+        "Material inorg�nico."
+      ],
+      "etimologia": "Del lat�n 'terra'.",
+      "ejemplo": "La Tierra es el tercer planeta.",
+      "sinonimos": ["mundo", "planeta", "suelo", "terreno"],
+      "antonimos": ["cielo", "mar", "agua"],
+      "familia_lexica": ["terrestre", "terreno", "terr�queo", "aterrizar"],
+      "locuciones": ["tierra firme", "tomar tierra", "tierra natal"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "astronom�a",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "aire",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Mezcla gaseosa que forma la atm�sfera terrestre.",
+      "acepciones": [
+        "Atm�sfera.",
+        "Viento.",
+        "Aspecto o apariencia.",
+        "En m�sica: melod�a."
+      ],
+      "etimologia": "Del lat�n 'aer', 'aeris'.",
+      "ejemplo": "Necesitamos aire puro.",
+      "sinonimos": ["atm�sfera", "viento", "brisa", "ox�geno"],
+      "antonimos": ["vac�o", "tierra", "agua"],
+      "familia_lexica": ["a�reo", "aer�fero", "aerodin�mico", "airear"],
+      "locuciones": ["al aire libre", "aire acondicionado", "cambiar de aires"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "fuego",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Calor y luz producidos por la combusti�n.",
+      "acepciones": [
+        "Combusti�n.",
+        "Arma de fuego.",
+        "Pasi�n."
+      ],
+      "etimologia": "Del lat�n 'focus', hogar.",
+      "ejemplo": "El fuego calienta la casa.",
+      "sinonimos": ["llama", "combusti�n", "hoguera", "incendio"],
+      "antonimos": ["agua", "hielo", "fr�o"],
+      "familia_lexica": ["fog�n", "fogata", "fuego", "hoguera"],
+      "locuciones": ["a fuego lento", "jugar con fuego", "fuego amigo"],
+      "nivel": "formal",
+      "frecuencia": "muy alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "viento",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Corriente de aire que se produce en la atm�sfera.",
+      "acepciones": [
+        "Corriente de aire.",
+        "Olor que se sigue.",
+        "Vanidad."
+      ],
+      "etimologia": "Del lat�n 'ventus'.",
+      "ejemplo": "El viento sopla fuerte hoy.",
+      "sinonimos": ["brisa", "r�faga", "vendaval", "hurac�n"],
+      "antonimos": ["calma", "quietud"],
+      "familia_lexica": ["ventoso", "ventilar", "ventilador", "veleta"],
+      "locuciones": ["contra viento y marea", "a los cuatro vientos", "viento en popa"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "lluvia",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Acci�n de llover. Agua que cae de las nubes.",
+      "acepciones": [
+        "Precipitaci�n.",
+        "Abundancia.",
+        "En plural: temporada."
+      ],
+      "etimologia": "De 'llover'.",
+      "ejemplo": "La lluvia moja los campos.",
+      "sinonimos": ["precipitaci�n", "aguacero", "chubasco", "chaparr�n"],
+      "antonimos": ["sequ�a", "sol"],
+      "familia_lexica": ["llover", "llovizna", "lluvioso", "pluvial"],
+      "locuciones": ["lluvia de estrellas", "lluvia �cida", "tras la lluvia, el sol"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "nieve",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Agua helada que se desprende de las nubes en forma de copos.",
+      "acepciones": [
+        "Precipitaci�n s�lida.",
+        "Canas.",
+        "Helado."
+      ],
+      "etimologia": "Del lat�n 'nix', 'nivis'.",
+      "ejemplo": "La nieve cubre las monta�as.",
+      "sinonimos": ["nevada", "copos", "escarcha"],
+      "antonimos": ["sol", "calor"],
+      "familia_lexica": ["nevar", "nevada", "nevado", "nevasca"],
+      "locuciones": ["mu�eco de nieve", "nieve perpetua"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "hielo",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Agua convertida en cuerpo s�lido y cristalino por un descenso de temperatura.",
+      "acepciones": [
+        "Agua congelada.",
+        "Frialdad.",
+        "Joya."
+      ],
+      "etimologia": "Del lat�n 'gelu'.",
+      "ejemplo": "El hielo cubre el lago.",
+      "sinonimos": ["glacial", "escarcha", "helado"],
+      "antonimos": ["fuego", "calor"],
+      "familia_lexica": ["helar", "helado", "glacial", "heladera"],
+      "locuciones": ["romper el hielo", "estar hecho hielo"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "calor",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Energ�a que se manifiesta por un aumento de temperatura.",
+      "acepciones": [
+        "Temperatura alta.",
+        "Sensaci�n t�rmica.",
+        "Fervor."
+      ],
+      "etimologia": "Del lat�n 'calor', 'caloris'.",
+      "ejemplo": "El calor del verano es intenso.",
+      "sinonimos": ["bochorno", "sofoco", "fogosidad"],
+      "antonimos": ["fr�o", "frescura"],
+      "familia_lexica": ["caliente", "caluroso", "calor�a", "calefacci�n"],
+      "locuciones": ["hace calor", "calor humano", "al calor de"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "fr�o",
+      "categoria_gramatical": "sustantivo",
+      "genero": "masculino",
+      "numero": "singular",
+      "definicion": "Sensaci�n producida por la p�rdida de calor.",
+      "acepciones": [
+        "Baja temperatura.",
+        "Indiferencia.",
+        "Enfermedad."
+      ],
+      "etimologia": "Del lat�n 'frigidus'.",
+      "ejemplo": "El fr�o del invierno es intenso.",
+      "sinonimos": ["fresco", "helado", "g�lido"],
+      "antonimos": ["calor", "caliente"],
+      "familia_lexica": ["frialdad", "enfriar", "fr�amente", "friolento"],
+      "locuciones": ["hace fr�o", "tener fr�o", "quedarse fr�o"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "nube",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Masa visible de vapor de agua suspendida en la atm�sfera.",
+      "acepciones": [
+        "Masa de vapor.",
+        "Multitud.",
+        "Mancha."
+      ],
+      "etimologia": "Del lat�n 'nubes'.",
+      "ejemplo": "Hay nubes en el cielo.",
+      "sinonimos": ["nubarr�n", "celaje", "nebulosa"],
+      "antonimos": ["claro", "despejado"],
+      "familia_lexica": ["nublado", "nublar", "nubosidad"],
+      "locuciones": ["nube de verano", "estar en las nubes"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    },
+    {
+      "lema": "tormenta",
+      "categoria_gramatical": "sustantivo",
+      "genero": "femenino",
+      "numero": "singular",
+      "definicion": "Perturbaci�n atmosf�rica violenta acompa�ada de aparato el�ctrico y viento fuerte.",
+      "acepciones": [
+        "Tempestad.",
+        "Adversidad.",
+        "Conmoci�n."
+      ],
+      "etimologia": "Del lat�n 'tormenta'.",
+      "ejemplo": "La tormenta dur� toda la noche.",
+      "sinonimos": ["tempestad", "borrasca", "temporal"],
+      "antonimos": ["calma", "bonanza"],
+      "familia_lexica": ["tormentoso", "atormentar", "tormenta"],
+      "locuciones": ["tormenta perfecta", "tormenta de verano"],
+      "nivel": "formal",
+      "frecuencia": "alta",
+      "marcas": [],
+      "variantes_regionales": [],
+      "categoria_semantica": "naturaleza",
+      "dificultad": "b�sico"
+    }
+  ]
+}

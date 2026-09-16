@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>{{ estudiante.username }} | Panel Profesor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_dashboard' %}" class="btn btn-outline-light btn-sm">Volver</a>
+</div>
+</nav>
+
+<div class="container mt-4">
+<h1>{{ estudiante.username }}</h1>
+<p class="text-muted">{{ estudiante.email }}</p>
+
+<div class="row mb-4">
+<div class="col-md-3">
+<div class="card text-center bg-primary text-white">
+<div class="card-body"><h6>Nivel</h6><h2>{{ nivel }}</h2></div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card text-center bg-warning text-dark">
+<div class="card-body"><h6>XP Total</h6><h2>{{ total_xp }}</h2></div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card text-center bg-success text-white">
+<div class="card-body"><h6>Cursos</h6><h2>{{ inscripciones.count }}</h2></div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card text-center bg-info text-white">
+<div class="card-body"><h6>Certificados</h6><h2>{{ certificados.count }}</h2></div>
+</div>
+</div>
+</div>
+
+<h3>Cursos inscritos</h3>
+<table class="table table-hover mb-4">
+<thead class="table-light">
+<tr><th>Curso</th><th>Progreso</th><th>XP</th><th>Estado</th><th>Accion</th></tr>
+</thead>
+<tbody>
+{% for i in inscripciones %}
+<tr>
+<td>{{ i.curso.icono }} {{ i.curso.titulo }}</td>
+<td>
+<div class="progress" style="height: 20px; width: 200px;">
+<div class="progress-bar bg-success" style="width: {{ i.progreso }}%">{{ i.progreso }}%</div>
+</div>
+</td>
+<td>{{ i.xp_acumulado }} XP</td>
+<td>{% if i.completado %}<span class="badge bg-success">Completado</span>{% else %}<span class="badge bg-secondary">En progreso</span>{% endif %}</td>
+<td>
+{% if not i.completado %}
+<form method="post" action="{% url 'cursos:profesor_otorgar_certificado' estudiante.id i.curso.id %}" style="display:inline;">
+{% csrf_token %}
+<button type="submit" class="btn btn-sm btn-success">Otorgar certificado</button>
+</form>
+{% else %}
+<span class="text-success">Certificado otorgado</span>
+{% endif %}
+</td>
+</tr>
+{% empty %}
+<tr><td colspan="5" class="text-muted">Sin inscripciones.</td></tr>
+{% endfor %}
+</tbody>
+</table>
+
+<h3>Certificados</h3>
+<ul class="list-group mb-4">
+{% for c in certificados %}
+<li class="list-group-item d-flex justify-content-between">
+<span>{{ c.inscripcion.curso.titulo }}</span>
+<span class="badge bg-success">{{ c.codigo }} - {{ c.fecha_emision|date:"d/m/Y" }}</span>
+</li>
+{% empty %}
+<li class="list-group-item text-muted">Sin certificados.</li>
+{% endfor %}
+</ul>
+
+<h3>Lecciones completadas (ultimas 20)</h3>
+<ul class="list-group">
+{% for p in progresos %}
+<li class="list-group-item d-flex justify-content-between">
+<span>{{ p.leccion.curso.titulo }} - {{ p.leccion.titulo }}</span>
+<span class="badge bg-warning text-dark">+{{ p.xp_ganado }} XP</span>
+</li>
+{% empty %}
+<li class="list-group-item text-muted">Sin lecciones completadas.</li>
+{% endfor %}
+</ul>
+
+</div>
+</body>
+</html>

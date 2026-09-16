@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>{{ leccion.titulo }} | Panel Profesor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_curso_detail' curso.id %}" class="btn btn-outline-light btn-sm">Volver al curso</a>
+</div>
+</nav>
+
+<div class="container mt-4">
+<h1>{{ leccion.titulo }}</h1>
+<span class="badge bg-info">{{ leccion.get_subclase_display }}</span>
+<span class="badge bg-warning text-dark">+{{ leccion.xp_reward }} XP</span>
+
+<div class="mt-3">
+<a href="{% url 'cursos:profesor_leccion_edit' leccion.id %}" class="btn btn-sm btn-primary">Editar leccion</a>
+<form method="post" action="{% url 'cursos:profesor_leccion_delete' leccion.id %}" style="display:inline;" onsubmit="return confirm('Seguro que quieres eliminar esta leccion?');">
+{% csrf_token %}
+<button type="submit" class="btn btn-sm btn-danger">Eliminar leccion</button>
+</form>
+</div>
+
+{% if leccion.teoria %}
+<div class="card mt-3">
+<div class="card-body">
+<h5>Teoria</h5>
+<pre style="white-space: pre-wrap;">{{ leccion.teoria }}</pre>
+</div>
+</div>
+{% endif %}
+
+<div class="d-flex justify-content-between align-items-center mt-4">
+<h3>Ejercicios ({{ ejercicios.count }})</h3>
+<a href="{% url 'cursos:profesor_ejercicio_create' leccion.id %}" class="btn btn-success">+ Anadir ejercicio</a>
+</div>
+
+<table class="table table-hover mt-3">
+<thead class="table-light">
+<tr><th>#</th><th>Pregunta</th><th>Correcta</th><th>XP</th><th>Acciones</th></tr>
+</thead>
+<tbody>
+{% for e in ejercicios %}
+<tr>
+<td>{{ e.orden }}</td>
+<td>{{ e.pregunta|truncatechars:80 }}</td>
+<td><span class="badge bg-success">{{ e.respuesta_correcta }}</span></td>
+<td>{{ e.xp_reward }}</td>
+<td>
+<a href="{% url 'cursos:profesor_ejercicio_edit' e.id %}" class="btn btn-sm btn-outline-primary">Editar</a>
+<form method="post" action="{% url 'cursos:profesor_ejercicio_delete' e.id %}" style="display:inline;" onsubmit="return confirm('Seguro?');">
+{% csrf_token %}
+<button type="submit" class="btn btn-sm btn-outline-danger">Eliminar</button>
+</form>
+</td>
+</tr>
+{% empty %}
+<tr><td colspan="5" class="text-muted text-center">Sin ejercicios.</td></tr>
+{% endfor %}
+</tbody>
+</table>
+
+</div>
+</body>
+</html>

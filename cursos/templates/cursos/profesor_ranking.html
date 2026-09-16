@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ranking | Panel Profesor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_dashboard' %}" class="btn btn-outline-light btn-sm">Panel</a>
+</div>
+</nav>
+
+<div class="container mt-4">
+<h1>Ranking Global (Top 100)</h1>
+
+<table class="table table-hover">
+<thead class="table-dark">
+<tr><th>#</th><th>Estudiante</th><th>Nivel</th><th>XP Total</th><th>Cursos</th><th>Certificados</th></tr>
+</thead>
+<tbody>
+{% for e in ranking %}
+<tr>
+<td>{{ e.posicion }}</td>
+<td><a href="{% url 'cursos:profesor_estudiante' e.id %}"><strong>{{ e.username }}</strong></a></td>
+<td><span class="badge bg-warning text-dark">Nv. {{ e.nivel }}</span></td>
+<td>{{ e.xp_total }} XP</td>
+<td>{{ e.num_cursos }}</td>
+<td><span class="badge bg-success">{{ e.num_certificados }}</span></td>
+</tr>
+{% empty %}
+<tr><td colspan="6" class="text-muted text-center">Sin datos.</td></tr>
+{% endfor %}
+</tbody>
+</table>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Cursos | Panel Profesor</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="/">LEXICON LOGIC - PROFESOR</a>
+<a href="{% url 'cursos:profesor_dashboard' %}" class="btn btn-outline-light btn-sm">Panel</a>
+<a href="{% url 'cursos:profesor_ranking' %}" class="btn btn-outline-light btn-sm">Ranking</a>
+</div>
+</nav>
+
+<div class="container mt-4">
+<h1>Cursos ({{ cursos|length }})</h1>
+
+<div class="row">
+{% for c in cursos %}
+<div class="col-md-4 mb-3">
+<div class="card shadow-sm h-100">
+<div class="card-body">
+<h5>{{ c.icono }} {{ c.titulo }}</h5>
+<span class="badge bg-info">{{ c.categoria_semantica }}</span>
+<div class="mt-3">
+<p class="small mb-1">Inscritos: <strong>{{ c.num_inscritos }}</strong></p>
+<p class="small mb-1">Completados: <strong>{{ c.num_completados|default:0 }}</strong></p>
+<p class="small mb-1">Lecciones: <strong>{{ c.num_lecciones_curso }}</strong></p>
+</div>
+<a href="{% url 'cursos:profesor_curso_detail' c.id %}" class="btn btn-sm btn-primary mt-2">Ver detalle</a>
+</div>
+</div>
+</div>
+{% empty %}
+<div class="col-12"><p class="text-muted">Sin cursos.</p></div>
+{% endfor %}
+</div>
+</div>
+</body>
+</html>

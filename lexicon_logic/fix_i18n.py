@@ -1,4 +1,80 @@
-<!DOCTYPE html>
+﻿# fix_i18n.py
+import os, re
+
+BASE = r"E:\02_proyectos\lexicon_logic\_original"
+
+# ─── 1) VIEWS.PY ───────────────────────────────────────
+views_path = os.path.join(BASE, "core", "views.py")
+c = open(views_path, encoding="utf-8").read()
+
+nueva_vista = '''def termino_detail(request, slug):
+    """Mini vista de una palabra con todos sus campos lexicograficos."""
+    termino = get_object_or_404(Termino, palabra__iexact=slug)
+    variantes = termino.variantes.all().order_by('pais')
+
+    if termino.categoria_semantica:
+        relacionados = Termino.objects.filter(
+            categoria_semantica=termino.categoria_semantica
+        ).exclude(id=termino.id)[:6]
+    else:
+        relacionados = Termino.objects.none()
+
+    idioma_actual = request.session.get('idioma', 'es')
+    traduccion = None
+    if idioma_actual and idioma_actual != 'es':
+        traduccion = termino.traducciones.filter(
+            idioma__codigo=idioma_actual
+        ).first()
+
+    return render(request, 'core/termino_detail.html', {
+        'termino': termino,
+        'variantes': variantes,
+        'relacionados': relacionados,
+        'idioma_actual': idioma_actual,
+        'traduccion': traduccion,
+    })
+
+
+def cambiar_idioma(request):
+    """Guarda el idioma seleccionado en la sesion y redirige atras."""
+    if request.method == 'POST':
+        idioma = request.POST.get('idioma', 'es')
+        request.session['idioma'] = idioma
+    return redirect(request.META.get('HTTP_REFERER', '/'))
+'''
+
+# Reemplazar la funcion termino_detail existente
+patron = re.compile(r"def termino_detail\(request, slug\):.*?(?=\n\n\n# ═|\ndef |\Z)", re.DOTALL)
+if patron.search(c):
+    c = patron.sub(nueva_vista, c, count=1)
+    print("[OK] termino_detail reemplazada")
+else:
+    print("[WARN] No se encontro patron termino_detail, anadiendo al final")
+    c += "\n\n" + nueva_vista
+
+# Anadir cambiar_idioma si no existe
+if "def cambiar_idioma" not in c:
+    c += "\n\n" + nueva_vista.split("def cambiar_idioma")[1].join(["def cambiar_idioma", ""])
+    print("[OK] cambiar_idioma anadida")
+
+open(views_path, "w", encoding="utf-8").write(c)
+print("[OK] views.py guardado")
+
+# ─── 2) URLS.PY ────────────────────────────────────────
+urls_path = os.path.join(BASE, "lexicon_logic", "urls.py")
+u = open(urls_path, encoding="utf-8").read()
+
+if "cambiar_idioma" not in u:
+    if "from core import views" not in u:
+        u = u.replace("from django.urls import path", "from django.urls import path\nfrom core import views as core_views")
+    u = u.replace("urlpatterns = [", "urlpatterns = [\n    path('cambiar-idioma/', core_views.cambiar_idioma, name='cambiar_idioma'),")
+    open(urls_path, "w", encoding="utf-8").write(u)
+    print("[OK] urls.py actualizado")
+else:
+    print("[INFO] urls.py ya tenia cambiar_idioma")
+
+# ─── 3) TEMPLATE ───────────────────────────────────────
+tpl = '''<!DOCTYPE html>
 <html lang="{{ idioma_actual|default:'es' }}">
 <head>
 <meta charset="UTF-8">
@@ -81,4 +157,10 @@
 {% endif %}
 </div>
 </body>
-</html>
+</html>'''
+
+tpl_path = os.path.join(BASE, "core", "templates", "core", "termino_detail.html")
+open(tpl_path, "w", encoding="utf-8").write(tpl)
+print("[OK] termino_detail.html guardado")
+
+print("\n✅ Listo. Ahora ejecuta: E:\\PythonPortable_Django5\\python.exe manage.py check")

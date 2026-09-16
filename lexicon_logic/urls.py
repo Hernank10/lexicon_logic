@@ -8,7 +8,8 @@ from core import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-
+    # Cambio de idioma
+    path("idioma/<str:codigo>/", views.cambiar_idioma, name="cambiar_idioma"),
     # Autenticacion
     path("accounts/login/",
          auth_views.LoginView.as_view(template_name="registration/login.html"),

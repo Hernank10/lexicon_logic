@@ -9,7 +9,7 @@ SECRET_KEY = "django-insecure-b#(bs@t0zuzi+yjomk!(%adpf=3#gg&_2bi(ccw%+**d!!7ouh
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'testserver']
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -25,6 +25,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",   # ← i18n: idioma del usuario
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -44,6 +45,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "core.context_processors.idiomas_disponibles",   # ← NUEVO
             ],
         },
     },
@@ -73,7 +75,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LANGUAGE_CODE = "es-es"
+LANGUAGE_CODE = "es"
 TIME_ZONE = "UTC"
 USE_I18N = True
 USE_TZ = True
@@ -86,3 +88,41 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 LOGIN_REDIRECT_URL = '/cursos/dashboard/'
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_URL = '/accounts/login/'
+
+# ============================================================
+# INTERNACIONALIZACION (i18n)
+# ============================================================
+LANGUAGES = [
+    ("es", "Espanol"),
+    ("en", "English"),
+    ("zh-hans", "Chinese"),
+    ("hi", "Hindi"),
+    ("ar", "Arabic"),
+    ("bn", "Bengali"),
+    ("pt", "Portuguese"),
+    ("ru", "Russian"),
+    ("ja", "Japanese"),
+    ("de", "German"),
+    ("fr", "French"),
+    ("id", "Indonesian"),
+    ("ur", "Urdu"),
+    ("sw", "Swahili"),
+    ("tr", "Turkish"),
+    ("ta", "Tamil"),
+    ("vi", "Vietnamese"),
+    ("ko", "Korean"),
+    ("it", "Italian"),
+    ("th", "Thai"),
+    ("gu", "Gujarati"),
+    ("fa", "Persian"),
+    ("pl", "Polish"),
+    ("uk", "Ukrainian"),
+    ("ms", "Malay"),
+    ("te", "Telugu"),
+    ("mr", "Marathi"),
+    ("he", "Hebrew"),
+    ("nl", "Dutch"),
+    ("fil", "Filipino"),
+]
+
+LOCALE_PATHS = [BASE_DIR / "locale"]

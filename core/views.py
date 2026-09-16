@@ -37,7 +37,6 @@ def termino_detail(request, slug):
     termino = get_object_or_404(Termino, palabra__iexact=slug)
     variantes = termino.variantes.all().order_by('pais')
 
-    # Terminos relacionados (misma categoria semantica)
     if termino.categoria_semantica:
         relacionados = Termino.objects.filter(
             categoria_semantica=termino.categoria_semantica
@@ -45,11 +44,28 @@ def termino_detail(request, slug):
     else:
         relacionados = Termino.objects.none()
 
+    idioma_actual = request.session.get('idioma', 'es')
+    traduccion = None
+    if idioma_actual and idioma_actual != 'es':
+        traduccion = termino.traducciones.filter(
+            idioma__codigo=idioma_actual
+        ).first()
+
     return render(request, 'core/termino_detail.html', {
         'termino': termino,
         'variantes': variantes,
         'relacionados': relacionados,
+        'idioma_actual': idioma_actual,
+        'traduccion': traduccion,
     })
+
+
+def cambiar_idioma(request):
+    """Guarda el idioma seleccionado en la sesion y redirige atras."""
+    if request.method == 'POST':
+        idioma = request.POST.get('idioma', 'es')
+        request.session['idioma'] = idioma
+    return redirect(request.META.get('HTTP_REFERER', '/'))
 
 
 
@@ -100,3 +116,19 @@ def perfil(request):
         'profile': profile,
         'form': form,
     })
+
+
+
+# ============================================================
+# CAMBIO DE IDIOMA
+# ============================================================
+from django.utils import translation
+from .models import Idioma
+
+
+def cambiar_idioma(request, codigo):
+    """Cambia el idioma activo del usuario (guardado en sesion)."""
+    idioma = get_object_or_404(Idioma, codigo=codigo, activo=True)
+    request.session['idioma'] = codigo
+    translation.activate(codigo)
+    return redirect(request.META.get('HTTP_REFERER', '/'))

@@ -1,0 +1,609 @@
+{
+  "entradas": [
+    {
+      "lema": "casa",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Edificio o lugar destinado a vivienda."
+    },
+    {
+      "lema": "agua",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Líquido esencial para la vida."
+    },
+    {
+      "lema": "amor",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Sentimiento profundo de afecto."
+    },
+    {
+      "lema": "vida",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Estado de actividad de los seres vivos."
+    },
+    {
+      "lema": "tiempo",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Magnitud que mide la duración."
+    },
+    {
+      "lema": "trabajo",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Actividad física o intelectual."
+    },
+    {
+      "lema": "familia",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Grupo de personas emparentadas."
+    },
+    {
+      "lema": "amigo",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Persona con quien se tiene amistad."
+    },
+    {
+      "lema": "salud",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Estado de bienestar físico y mental."
+    },
+    {
+      "lema": "educación",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Formación destinada a desarrollar la capacidad."
+    },
+    {
+      "lema": "cultura",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Conjunto de conocimientos y costumbres."
+    },
+    {
+      "lema": "historia",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Narración de acontecimientos pasados."
+    },
+    {
+      "lema": "ciencia",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Conocimiento sistemático de la realidad."
+    },
+    {
+      "lema": "arte",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Manifestación de la creatividad humana."
+    },
+    {
+      "lema": "música",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Arte de combinar sonidos."
+    },
+    {
+      "lema": "libro",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Conjunto de hojas encuadernadas."
+    },
+    {
+      "lema": "palabra",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Unidad lingüística con significado."
+    },
+    {
+      "lema": "lengua",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Sistema de comunicación verbal."
+    },
+    {
+      "lema": "mundo",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Conjunto de todo lo existente."
+    },
+    {
+      "lema": "naturaleza",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Conjunto de seres naturales."
+    },
+    {
+      "lema": "planeta",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Cuerpo que orbita una estrella."
+    },
+    {
+      "lema": "sol",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Estrella que da luz y calor."
+    },
+    {
+      "lema": "luna",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Satélite natural de la Tierra."
+    },
+    {
+      "lema": "estrella",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Cuerpo celeste luminoso."
+    },
+    {
+      "lema": "mar",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Masa de agua salada."
+    },
+    {
+      "lema": "montaña",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Gran elevación natural del terreno."
+    },
+    {
+      "lema": "río",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Corriente de agua continua."
+    },
+    {
+      "lema": "árbol",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Planta de tronco leñoso."
+    },
+    {
+      "lema": "flor",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Parte reproductiva de la planta."
+    },
+    {
+      "lema": "animal",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Ser vivo que se alimenta de materia orgánica."
+    },
+    {
+      "lema": "perro",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Mamífero doméstico de la familia de los cánidos."
+    },
+    {
+      "lema": "gato",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Mamífero doméstico de la familia de los félidos."
+    },
+    {
+      "lema": "pájaro",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Ave pequeña que vuela."
+    },
+    {
+      "lema": "comida",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Alimento que se consume."
+    },
+    {
+      "lema": "pan",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Alimento de harina y agua."
+    },
+    {
+      "lema": "leche",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Líquido blanco nutritivo."
+    },
+    {
+      "lema": "fruta",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Fruto comestible de una planta."
+    },
+    {
+      "lema": "verdura",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Hortaliza comestible."
+    },
+    {
+      "lema": "ciudad",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Núcleo urbano poblado."
+    },
+    {
+      "lema": "país",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Territorio con gobierno propio."
+    },
+    {
+      "lema": "escuela",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Centro de enseñanza."
+    },
+    {
+      "lema": "universidad",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Institución de educación superior."
+    },
+    {
+      "lema": "médico",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Profesional de la salud."
+    },
+    {
+      "lema": "maestro",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Persona que enseña."
+    },
+    {
+      "lema": "estudiante",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Persona que estudia."
+    },
+    {
+      "lema": "niño",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Persona de poca edad."
+    },
+    {
+      "lema": "mujer",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Persona de sexo femenino."
+    },
+    {
+      "lema": "hombre",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Persona de sexo masculino."
+    },
+    {
+      "lema": "persona",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Ser humano individual."
+    },
+    {
+      "lema": "pueblo",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Comunidad o nación."
+    },
+    {
+      "lema": "gobierno",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Autoridad que dirige un país."
+    },
+    {
+      "lema": "ley",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Norma jurídica obligatoria."
+    },
+    {
+      "lema": "justicia",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Principio de equidad."
+    },
+    {
+      "lema": "libertad",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Facultad de obrar libremente."
+    },
+    {
+      "lema": "paz",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Estado sin conflictos."
+    },
+    {
+      "lema": "verdad",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Conformidad con la realidad."
+    },
+    {
+      "lema": "esperanza",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Confianza en el futuro."
+    },
+    {
+      "lema": "fe",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Confianza sin pruebas."
+    },
+    {
+      "lema": "sueño",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Imagen mental al dormir."
+    },
+    {
+      "lema": "pensamiento",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Producto de la actividad mental."
+    },
+    {
+      "lema": "idea",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Representación mental."
+    },
+    {
+      "lema": "memoria",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Facultad de recordar."
+    },
+    {
+      "lema": "conocimiento",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Saber acumulado."
+    },
+    {
+      "lema": "espacio",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Extensión que contiene objetos."
+    },
+    {
+      "lema": "número",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Expresión de cantidad."
+    },
+    {
+      "lema": "color",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Impresión visual de la luz."
+    },
+    {
+      "lema": "forma",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Aspecto exterior de algo."
+    },
+    {
+      "lema": "tamaño",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Dimensión de un objeto."
+    },
+    {
+      "lema": "peso",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Fuerza de gravedad."
+    },
+    {
+      "lema": "velocidad",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Rapidez del movimiento."
+    },
+    {
+      "lema": "corazón",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Órgano que bombea la sangre."
+    },
+    {
+      "lema": "cabeza",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Parte superior del cuerpo."
+    },
+    {
+      "lema": "mano",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Parte del cuerpo para agarrar."
+    },
+    {
+      "lema": "pie",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Parte del cuerpo para caminar."
+    },
+    {
+      "lema": "ojo",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Órgano de la visión."
+    },
+    {
+      "lema": "boca",
+      "categoria_gramatical": "sustantivo",
+      "definicion": "Cavidad para comer y hablar."
+    },
+    {
+      "lema": "ser",
+      "categoria_gramatical": "verbo",
+      "definicion": "Existir o tener cualidad."
+    },
+    {
+      "lema": "estar",
+      "categoria_gramatical": "verbo",
+      "definicion": "Hallarse en un estado."
+    },
+    {
+      "lema": "tener",
+      "categoria_gramatical": "verbo",
+      "definicion": "Poseer algo."
+    },
+    {
+      "lema": "hacer",
+      "categoria_gramatical": "verbo",
+      "definicion": "Realizar una acción."
+    },
+    {
+      "lema": "decir",
+      "categoria_gramatical": "verbo",
+      "definicion": "Expresar con palabras."
+    },
+    {
+      "lema": "ir",
+      "categoria_gramatical": "verbo",
+      "definicion": "Moverse a un lugar."
+    },
+    {
+      "lema": "ver",
+      "categoria_gramatical": "verbo",
+      "definicion": "Percibir con los ojos."
+    },
+    {
+      "lema": "dar",
+      "categoria_gramatical": "verbo",
+      "definicion": "Entregar algo."
+    },
+    {
+      "lema": "saber",
+      "categoria_gramatical": "verbo",
+      "definicion": "Conocer algo."
+    },
+    {
+      "lema": "querer",
+      "categoria_gramatical": "verbo",
+      "definicion": "Desear algo."
+    },
+    {
+      "lema": "poder",
+      "categoria_gramatical": "verbo",
+      "definicion": "Tener capacidad."
+    },
+    {
+      "lema": "amar",
+      "categoria_gramatical": "verbo",
+      "definicion": "Sentir amor."
+    },
+    {
+      "lema": "vivir",
+      "categoria_gramatical": "verbo",
+      "definicion": "Tener vida."
+    },
+    {
+      "lema": "aprender",
+      "categoria_gramatical": "verbo",
+      "definicion": "Adquirir conocimiento."
+    },
+    {
+      "lema": "enseñar",
+      "categoria_gramatical": "verbo",
+      "definicion": "Transmitir conocimiento."
+    },
+    {
+      "lema": "crear",
+      "categoria_gramatical": "verbo",
+      "definicion": "Producir algo nuevo."
+    },
+    {
+      "lema": "pensar",
+      "categoria_gramatical": "verbo",
+      "definicion": "Formar ideas en la mente."
+    },
+    {
+      "lema": "escribir",
+      "categoria_gramatical": "verbo",
+      "definicion": "Representar con signos gráficos."
+    },
+    {
+      "lema": "leer",
+      "categoria_gramatical": "verbo",
+      "definicion": "Interpretar un texto."
+    },
+    {
+      "lema": "hablar",
+      "categoria_gramatical": "verbo",
+      "definicion": "Expresar con palabras."
+    },
+    {
+      "lema": "comer",
+      "categoria_gramatical": "verbo",
+      "definicion": "Ingerir alimentos."
+    },
+    {
+      "lema": "beber",
+      "categoria_gramatical": "verbo",
+      "definicion": "Ingerir líquidos."
+    },
+    {
+      "lema": "dormir",
+      "categoria_gramatical": "verbo",
+      "definicion": "Descansar con los ojos cerrados."
+    },
+    {
+      "lema": "caminar",
+      "categoria_gramatical": "verbo",
+      "definicion": "Andar a pie."
+    },
+    {
+      "lema": "correr",
+      "categoria_gramatical": "verbo",
+      "definicion": "Desplazarse rápidamente."
+    },
+    {
+      "lema": "bueno",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "De cualidad positiva."
+    },
+    {
+      "lema": "grande",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "De tamaño superior."
+    },
+    {
+      "lema": "nuevo",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "Reciente o moderno."
+    },
+    {
+      "lema": "feliz",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "Que siente felicidad."
+    },
+    {
+      "lema": "libre",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "Sin ataduras."
+    },
+    {
+      "lema": "triste",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "Que siente tristeza."
+    },
+    {
+      "lema": "rápido",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "Que se mueve con velocidad."
+    },
+    {
+      "lema": "lento",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "Que se mueve despacio."
+    },
+    {
+      "lema": "frío",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "De temperatura baja."
+    },
+    {
+      "lema": "caliente",
+      "categoria_gramatical": "adjetivo",
+      "definicion": "De temperatura alta."
+    },
+    {
+      "lema": "siempre",
+      "categoria_gramatical": "adverbio",
+      "definicion": "En todo tiempo."
+    },
+    {
+      "lema": "nunca",
+      "categoria_gramatical": "adverbio",
+      "definicion": "En ningún tiempo."
+    },
+    {
+      "lema": "también",
+      "categoria_gramatical": "adverbio",
+      "definicion": "Además, igualmente."
+    },
+    {
+      "lema": "tampoco",
+      "categoria_gramatical": "adverbio",
+      "definicion": "Tampoco, ni siquiera."
+    },
+    {
+      "lema": "aquí",
+      "categoria_gramatical": "adverbio",
+      "definicion": "En este lugar."
+    },
+    {
+      "lema": "allí",
+      "categoria_gramatical": "adverbio",
+      "definicion": "En aquel lugar."
+    },
+    {
+      "lema": "yo",
+      "categoria_gramatical": "pronombre",
+      "definicion": "Primera persona singular."
+    },
+    {
+      "lema": "tú",
+      "categoria_gramatical": "pronombre",
+      "definicion": "Segunda persona singular."
+    },
+    {
+      "lema": "él",
+      "categoria_gramatical": "pronombre",
+      "definicion": "Tercera persona singular masculino."
+    },
+    {
+      "lema": "ella",
+      "categoria_gramatical": "pronombre",
+      "definicion": "Tercera persona singular femenino."
+    }
+  ]
+}

@@ -59,12 +59,11 @@
 
 {% if idioma_actual != 'es' %}
 <div class="mb-4">
-  <a href="#" class="btn btn-outline-primary btn-sm disabled" title="Próximamente">
+  <a href="{% url 'aportar_traduccion' termino.palabra %}?idioma={{ idioma_actual }}" class="btn btn-outline-primary btn-sm">
     ➕ Aportar traduccion en {{ idioma_actual }}
   </a>
 </div>
 {% endif %}
-
 {% if variantes %}
 <div class="card shadow-sm mb-4"><div class="card-body">
 <h4>Variantes regionales</h4>

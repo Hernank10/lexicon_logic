@@ -2,7 +2,8 @@
 from django.db.models import Q
 from .models import Termino, Variante
 from .forms import TerminoForm
-
+from django.contrib import messages
+from django.shortcuts import redirect
 
 def home(request):
     """Buscador y listado principal."""
@@ -115,4 +116,45 @@ def perfil(request):
     return render(request, 'perfil.html', {
         'profile': profile,
         'form': form,
+    })
+
+
+
+
+# ═══════════════════════════════════════════════════════
+# APORTAR TRADUCCION
+# ═══════════════════════════════════════════════════════
+
+from django.contrib.auth.decorators import login_required
+from .forms import TraduccionForm
+
+
+@login_required
+def aportar_traduccion(request, slug):
+    """Formulario para que usuarios registrados aporten traducciones."""
+    termino = get_object_or_404(Termino, palabra__iexact=slug)
+
+    # Idioma preseleccionado desde query string o sesión
+    idioma_presel = request.GET.get('idioma') or request.session.get('idioma', 'es')
+
+    if request.method == 'POST':
+        form = TraduccionForm(request.POST)
+        if form.is_valid():
+            traduccion = form.save(commit=False)
+            traduccion.termino = termino
+            traduccion.autor = request.user
+            traduccion.save()
+            messages.success(
+                request,
+                '¡Gracias! Tu traducción de "' + termino.palabra + '" será revisada.'
+            )
+            return redirect('termino_detail', slug=termino.palabra)
+    else:
+        # Preseleccionar el idioma actual
+        form = TraduccionForm(initial={'idioma': idioma_presel})
+
+    return render(request, 'core/aportar_traduccion.html', {
+        'form': form,
+        'termino': termino,
+        'idioma_presel': idioma_presel,
     })

@@ -19,9 +19,9 @@ urlpatterns = [
          name="logout"),
     path("accounts/registro/", views.registro, name="registro"),
     path("perfil/", views.perfil, name="perfil"),
-
     # Apps
     path("", views.home, name="home"),
+    path("palabra/<str:slug>/aportar-traduccion/", views.aportar_traduccion, name="aportar_traduccion"),
     path("palabra/<str:slug>/", views.termino_detail, name="termino_detail"),
     path("cursos/", include("cursos.urls", namespace="cursos")),
 ]

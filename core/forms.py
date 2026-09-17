@@ -1,4 +1,4 @@
-from django import forms
+﻿from django import forms
 from .models import Termino
 
 
@@ -181,4 +181,50 @@ class PerfilForm(forms.ModelForm):
             'pais': 'Pais',
             'avatar': 'URL del avatar',
             'fecha_nacimiento': 'Fecha de nacimiento',
+        }
+
+
+# ═══════════════════════════════════════════════════════
+# FORMULARIO DE TRADUCCIONES
+# ═══════════════════════════════════════════════════════
+
+from .models import TraduccionTermino
+
+
+class TraduccionForm(forms.ModelForm):
+    """Formulario para aportar una traducción de un término."""
+
+    class Meta:
+        model = TraduccionTermino
+        fields = [
+            'idioma', 'traduccion', 'definicion_nativa',
+            'ejemplo_nativo', 'nivel_correspondencia', 'notas',
+        ]
+        widgets = {
+            'idioma': forms.Select(attrs={'class': 'form-select'}),
+            'traduccion': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Ej: house'
+            }),
+            'definicion_nativa': forms.Textarea(attrs={
+                'class': 'form-control', 'rows': 3,
+                'placeholder': 'Definición en el idioma nativo (opcional)'
+            }),
+            'ejemplo_nativo': forms.Textarea(attrs={
+                'class': 'form-control', 'rows': 2,
+                'placeholder': 'Ejemplo de uso en el idioma nativo (opcional)'
+            }),
+            'nivel_correspondencia': forms.Select(attrs={'class': 'form-select'}),
+            'notas': forms.Textarea(attrs={
+                'class': 'form-control', 'rows': 2,
+                'placeholder': 'Notas para el revisor (opcional)'
+            }),
+        }
+        labels = {
+            'idioma': 'Idioma',
+            'traduccion': 'Traducción',
+            'definicion_nativa': 'Definición en el idioma nativo',
+            'ejemplo_nativo': 'Ejemplo en el idioma nativo',
+            'nivel_correspondencia': 'Nivel de correspondencia',
+            'notas': 'Notas',
         }

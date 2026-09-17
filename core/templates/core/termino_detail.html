@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="{{ idioma_actual|default:'es' }}">
 <head>
 <meta charset="UTF-8">
@@ -14,7 +14,7 @@
   <select name="idioma" class="form-select form-select-sm" style="width:auto;" onchange="this.form.submit()">
     {% for lang in idiomas_disponibles %}
       <option value="{{ lang.codigo }}" {% if lang.codigo == idioma_actual %}selected{% endif %}>
-        {{ lang.nombre_nativo|default:lang.nombre }}
+        {{ lang.nombre_nativo }}
       </option>
     {% endfor %}
   </select>
@@ -59,7 +59,7 @@
 
 {% if idioma_actual != 'es' %}
 <div class="mb-4">
-  <a href="{% url 'aportar_traduccion' termino.palabra %}?idioma={{ idioma_actual }}" class="btn btn-outline-primary btn-sm">
+  <a href="#" class="btn btn-outline-primary btn-sm disabled" title="Próximamente">
     ➕ Aportar traduccion en {{ idioma_actual }}
   </a>
 </div>

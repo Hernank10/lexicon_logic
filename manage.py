@@ -3,6 +3,9 @@
 import os
 import sys
 
+# Parche de emergencia: forzar Django 5 del PythonPortable_Django5
+sys.path.insert(0, r'E:\PythonPortable_Django5\Lib\site-packages')
+
 # Regla 6: PythonPortable no anade la carpeta al sys.path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 

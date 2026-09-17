@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, get_object_or_404
+﻿from django.shortcuts import render, redirect, get_object_or_404
 from django.db.models import Q
 from .models import Termino, Variante
 from .forms import TerminoForm
@@ -116,19 +116,3 @@ def perfil(request):
         'profile': profile,
         'form': form,
     })
-
-
-
-# ============================================================
-# CAMBIO DE IDIOMA
-# ============================================================
-from django.utils import translation
-from .models import Idioma
-
-
-def cambiar_idioma(request, codigo):
-    """Cambia el idioma activo del usuario (guardado en sesion)."""
-    idioma = get_object_or_404(Idioma, codigo=codigo, activo=True)
-    request.session['idioma'] = codigo
-    translation.activate(codigo)
-    return redirect(request.META.get('HTTP_REFERER', '/'))

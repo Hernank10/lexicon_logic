@@ -1,4 +1,4 @@
-﻿from core.models import Idioma
+from core.models import Idioma
 
 IDIOMAS = [
     ("zh-hans", u"\u4e2d\u6587", "Chinese (Simplified)", "Sino-tibetana", 1100, "ltr"),

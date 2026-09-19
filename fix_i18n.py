@@ -1,4 +1,4 @@
-﻿# fix_i18n.py
+# fix_i18n.py
 import os, re
 
 BASE = r"E:\02_proyectos\lexicon_logic\_original"
